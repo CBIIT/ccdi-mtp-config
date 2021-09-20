@@ -1,0 +1,136 @@
+[
+  {
+    "id": "Gene_symbol",
+    "label": "Targets",
+    "sortable": true,
+    "internalLink": true
+  },
+  {
+    "id": "Variant_ID_hg38",
+    "label": "Variant ID hg38",
+    "sortable": true
+  },
+  {
+    "id": "Protein_change",
+    "label": "Protein change",
+    "sortable": true
+  },
+  {
+    "id": "PMTL",
+    "label": "PMTL",
+    "sortable": true
+  },
+  {
+    "id": "Dataset",
+    "label": "Dataset",
+    "sortable": true
+  },
+  {
+    "id": "Disease",
+    "label": "Disease",
+    "sortable": true,
+    "internalLink": true
+  },
+  {
+    "id": "EFO",
+    "hidden": true
+  },
+  {
+    "id": "MONDO",
+    "hidden": true
+  },
+  {
+    "id": "dbSNP_ID",
+    "label": "dbSNP ID",
+    "sortable": true
+  },
+  {
+    "id": "VEP_impact",
+    "label": "VEP impact",
+    "sortable": true
+  },
+  {
+    "id": "SIFT_impact",
+    "label": "SIFT impact",
+    "sortable": true
+  },
+  {
+    "id": "PolyPhen_impact",
+    "label": "PolyPhen impact",
+    "sortable": true
+  },
+  {
+    "id": "Variant_classification",
+    "label": "Variant classification",
+    "sortable": true
+  },
+  {
+    "id": "Variant_type",
+    "label": "Variant type",
+    "sortable": true
+  },
+  {
+    "id": "Gene_full_name",
+    "label": "Gene full name",
+    "sortable": true
+  },
+  {
+    "id": "Protein_RefSeq_ID",
+    "label": "Protein RefSeq ID",
+    "sortable": true
+  },
+  {
+    "id": "Gene_Ensembl_ID",
+    "hidden": true
+  },
+  {
+    "id": "Protein_Ensembl_ID",
+    "label": "Protein Ensembl ID",
+    "sortable": true
+  },
+  {
+    "id": "Total_mutations_Over_Patients_in_dataset",
+    "label": "Total mutations Over Patients in dataset",
+    "sortable": true
+  },
+  {
+    "id": "Frequency_in_overall_dataset",
+    "label": "Frequency in overall dataset",
+    "sortable": true
+  },
+  {
+    "id": "Total_primary_tumors_mutated_Over_Primary_tumors_in_dataset",
+    "label": "Total primary tumors mutated Over Primary tumors in dataset",
+    "sortable": true
+  },
+  {
+    "id": "Frequency_in_primary_tumors",
+    "label": "Frequency in primary tumors",
+    "sortable": true
+  },
+  {
+    "id": "Total_relapse_tumors_mutated_Over_Relapse_tumors_in_dataset",
+    "label": "Total relapse tumors mutated Over Relapse tumors in dataset",
+    "sortable": true
+  },
+  {
+    "id": "Frequency_in_relapse_tumors",
+    "label": "Frequency in relapse tumors",
+    "sortable": true
+  },
+  {
+    "id": "HotSpot",
+    "label": "HotSpot",
+    "sortable": true
+  },
+  {
+    "id": "OncoKB_cancer_gene",
+    "label": "OncoKB cancer gene",
+    "sortable": true
+  },
+  {
+    "id": "OncoKB_oncogene_TSG",
+    "label": "OncoKB oncogene TSG",
+    "sortable": true
+  }
+]

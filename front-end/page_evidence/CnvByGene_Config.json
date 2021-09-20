@@ -1,0 +1,91 @@
+[
+  {
+    "id": "Gene_symbol",
+    "label": "targets",
+    "sortable": true,
+    "internalLink": true
+  },
+  {
+    "id": "Gene_Ensembl_ID",
+    "hidden": true
+  },
+  {
+    "id": "Variant_type",
+    "label": "Variant type",
+    "sortable": true
+  },
+  {
+    "id": "Variant_category",
+    "label": "Variant category",
+    "sortable": true
+  },
+  {
+    "id": "Dataset",
+    "label": "Dataset",
+    "sortable": true
+  },
+  {
+    "id": "Disease",
+    "label": "Disease",
+    "sortable": true,
+    "internalLink": true
+  },
+  {
+    "id": "Total_alterations/Patients_in_dataset",
+    "label": "Total alterations/Patients in dataset",
+    "sortable": true
+  },
+  {
+    "id": "Frequency_in_overall_dataset",
+    "label": "Frequency in overall dataset",
+    "sortable": true
+  },
+  {
+    "id": "Total_primary_tumors_altered/Primary_tumors_in_dataset",
+    "label": "Total primary tumors altered/Primary tumors in dataset",
+    "sortable": true
+  },
+  {
+    "id": "Frequency_in_primary_tumors",
+    "label": "Frequency in primary tumors",
+    "sortable": true
+  },
+  {
+    "id": "Total_relapse_tumors_altered/Relapse_tumors_in_dataset",
+    "label": "Total relapse tumors altered/Relapse tumors in dataset",
+    "sortable": true
+  },
+  {
+    "id": "Frequency_in_relapse_tumors",
+    "label": "Frequency in relapse tumors",
+    "sortable": true
+  },
+  {
+    "id": "Gene_full_name",
+    "label": "Gene full name",
+    "sortable": true
+  },
+  {
+    "id": "RMTL",
+    "label": "PMTL",
+    "sortable": true
+  },
+  {
+    "id": "OncoKB_cancer_gene",
+    "label": "OncoKB cancer gene",
+    "sortable": true
+  },
+  {
+    "id": "OncoKB_oncogene_TSG",
+    "label": "OncoKB oncogene TSG",
+    "sortable": true
+  },
+  {
+    "id": "EFO",
+    "hidden": true
+  },
+  {
+    "id": "MONDO",
+    "hidden": true
+  }
+]
