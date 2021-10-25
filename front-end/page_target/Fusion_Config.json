@@ -1,0 +1,160 @@
+[
+  {
+    "id": "fusionName",
+    "label": "Fusion Name",
+    "sortable": true,
+    "Chop_field_name": "FusionName"
+  },
+  {
+    "id": "fusionType",
+    "label": "Fusion Type",
+    "sortable": true,
+    "Chop_field_name": "Fusion_Type"
+  },
+  {
+    "id": "geneSymbol",
+    "label": "Target",
+    "sortable": true,
+    "internalLink": true,
+    "Chop_field_name": "Gene_symbol"
+  },
+  {
+    "id": "genePosition",
+    "label": "Gene Position",
+    "sortable": true,
+    "Chop_field_name": "Gene_Position"
+  },
+  {
+    "id": "fusionAnno",
+    "label": "Fusion anno",
+    "sortable": true,
+    "Chop_field_name": "Fusion_anno"
+  },
+  {
+    "id": "breakpointLocation",
+    "label": "Breakpoint location",
+    "sortable": true,
+    "Chop_field_name": "BreakpointLocation"
+  },
+  {
+    "id": "annots",
+    "label": "annots",
+    "sortable": true,
+    "Chop_field_name": "annots"
+  },
+  {
+    "id": "kinaseDomainRetainedGene1A",
+    "label": "Kinase domain retained Gene1A",
+    "sortable": true,
+    "Chop_field_name": "Kinase_domain_retained_Gene1A"
+  },
+  {
+    "id": "kinaseDomainRetainedGene1B",
+    "label": "Kinase domain retained Gene1B",
+    "sortable": true,
+    "Chop_field_name": "Kinase_domain_retained_Gene1B"
+  },
+  {
+    "id": "reciprocalExistsEitherGeneKinase",
+    "label": "Reciprocal exists either gene kinase",
+    "sortable": true,
+    "Chop_field_name": "Reciprocal_exists_either_gene_kinase"
+  },
+  {
+    "id": "gene1AAnno",
+    "label": "Gene1A anno",
+    "sortable": true,
+    "Chop_field_name": "Gene1A_anno"
+  },
+  {
+    "id": "gene1BAnno",
+    "label": "Gene1B anno",
+    "sortable": true,
+    "Chop_field_name": "Gene1B_anno"
+  },
+  {
+    "id": "gene2AAnno",
+    "label": "Gene2A anno",
+    "sortable": true,
+    "Chop_field_name": "Gene2A_anno"
+  },
+  {
+    "id": "gene2BAnno",
+    "label": "Gene2B anno",
+    "sortable": true,
+    "Chop_field_name": "Gene2B_anno"
+  },
+  {
+    "id": "targetFromSourceId",
+    "label": "Gene Ensembl ID",
+    "hidden": true,
+    "Chop_field_name": "targetFromSourceId"
+  },
+  {
+    "id": "Disease",
+    "label": "Disease",
+    "sortable": true,
+    "internalLink": true,
+    "Chop_field_name": "Disease"
+  },
+  {
+    "id": "PMTL",
+    "label": "PMTL",
+    "sortable": true,
+    "Chop_field_name": "PMTL"
+  },
+  {
+    "id": "dataset",
+    "label": "Dataset",
+    "sortable": true,
+    "Chop_field_name": "Dataset"
+  },
+  {
+    "id": "totalAlterationsOverNumberPatientsInDataset",
+    "label": "Total alterations Over Patients in dataset",
+    "sortable": true,
+    "Chop_field_name": "Total_alterations_Over_Patients_in_dataset"
+  },
+  {
+    "id": "frequencyInOverallDataset",
+    "label": "Frequency in overall dataset",
+    "sortable": true,
+    "Chop_field_name": "Frequency_in_overall_dataset"
+  },
+  {
+    "id": "totalPrimaryTumorsMutatedOverPrimaryTumorsInDataset",
+    "label": "Total primary tumors mutated Over Primary tumors in dataset",
+    "sortable": true,
+    "Chop_field_name": "Total_primary_tumors_mutated_Over_Primary_tumors_in_dataset"
+  },
+  {
+    "id": "frequencyInPrimaryTumors",
+    "label": "Frequency in primary tumors",
+    "sortable": true,
+    "Chop_field_name": "Frequency_in_primary_tumors"
+  },
+  {
+    "id": "totalRelapseTumorsMutatedOverRelapseTumorsInDataset",
+    "label": "Total relapse tumors mutated Over Relapse tumors in dataset",
+    "sortable": true,
+    "Chop_field_name": "Total_relapse_tumors_mutated_Over_Relapse_tumors_in_dataset"
+  },
+  {
+    "id": "frequencyInRelapseTumors",
+    "label": "Frequency in relapse tumors",
+    "sortable": true,
+    "Chop_field_name": "Frequency_in_relapse_tumors"
+  },
+  {
+    "id": "MONDO",
+    "label": "MONDO",
+    "hidden": true,
+    "Chop_field_name": "MONDO"
+  },
+  {
+    "id": "diseaseFromSourceMappedId",
+    "label": "EFO",
+    "hidden": true,
+    "Chop_field_name": "diseaseFromSourceMappedId"
+  }
+]
