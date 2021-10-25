@@ -1,26 +1,27 @@
 [
   {
-    "id": "Gene_symbol",
-    "label": "targets",
+    "id": "geneSymbol",
+    "label": "Target",
     "sortable": true,
     "internalLink": true
   },
   {
-    "id": "Gene_Ensembl_ID",
+    "id": "targetFromSourceId",
+    "label": "Gene Ensembl ID",
     "hidden": true
   },
   {
-    "id": "Variant_type",
+    "id": "variantType",
     "label": "Variant type",
     "sortable": true
   },
   {
-    "id": "Variant_category",
+    "id": "variantCategory",
     "label": "Variant category",
     "sortable": true
   },
   {
-    "id": "Dataset",
+    "id": "dataset",
     "label": "Dataset",
     "sortable": true
   },
@@ -31,61 +32,63 @@
     "internalLink": true
   },
   {
-    "id": "Total_alterations/Patients_in_dataset",
+    "id": "totalAlterationsOverPatientsInDataset",
     "label": "Total alterations/Patients in dataset",
     "sortable": true
   },
   {
-    "id": "Frequency_in_overall_dataset",
+    "id": "frequencyInOverallDataset",
     "label": "Frequency in overall dataset",
     "sortable": true
   },
   {
-    "id": "Total_primary_tumors_altered/Primary_tumors_in_dataset",
+    "id": "totalPrimaryTumorsAlteredOverPrimaryTumorsInDataset",
     "label": "Total primary tumors altered/Primary tumors in dataset",
     "sortable": true
   },
   {
-    "id": "Frequency_in_primary_tumors",
+    "id": "frequencyInPrimaryTumors",
     "label": "Frequency in primary tumors",
     "sortable": true
   },
   {
-    "id": "Total_relapse_tumors_altered/Relapse_tumors_in_dataset",
+    "id": "totalRelapseTumorsAlteredOverRelapseTumorsInDataset",
     "label": "Total relapse tumors altered/Relapse tumors in dataset",
     "sortable": true
   },
   {
-    "id": "Frequency_in_relapse_tumors",
+    "id": "frequencyInRelapseTumors",
     "label": "Frequency in relapse tumors",
     "sortable": true
   },
   {
-    "id": "Gene_full_name",
+    "id": "geneFullName",
     "label": "Gene full name",
     "sortable": true
   },
   {
-    "id": "RMTL",
+    "id": "PMTL",
     "label": "PMTL",
     "sortable": true
   },
   {
-    "id": "OncoKB_cancer_gene",
+    "id": "OncoKBCancerGene",
     "label": "OncoKB cancer gene",
     "sortable": true
   },
   {
-    "id": "OncoKB_oncogene_TSG",
+    "id": "OncoKBOncogeneTSG",
     "label": "OncoKB oncogene TSG",
     "sortable": true
   },
   {
-    "id": "EFO",
+    "id": "diseaseFromSourceMappedId",
+    "label": "EFO",
     "hidden": true
   },
   {
     "id": "MONDO",
+    "label": "MONDO",
     "hidden": true
   }
 ]

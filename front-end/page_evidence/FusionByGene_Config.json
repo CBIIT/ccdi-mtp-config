@@ -1,12 +1,13 @@
 [
   {
-    "id": "Gene_Symbol",
-    "label": "Targets",
+    "id": "geneSymbol",
+    "label": "Target",
     "sortable": true,
     "internalLink": true
   },
   {
-    "id": "Gene_Ensembl_ID",
+    "id": "targetFromSourceId",
+    "label": "Gene Ensembl ID",
     "hidden": true
   },
   {
@@ -16,51 +17,53 @@
     "internalLink": true
   },
   {
-    "id": "RMTL",
+    "id": "PMTL",
     "label": "PMTL",
     "sortable": true
   },
   {
-    "id": "Dataset",
+    "id": "dataset",
     "label": "Dataset",
     "sortable": true
   },
   {
-    "id": "Total_alterations_Over_Patients_in_dataset",
-    "label": "Total_alterations Over Patients in dataset",
+    "id": "totalAlterationsOverNumberPatientsInDataset",
+    "label": "Total alterations Over Patients in dataset",
     "sortable": true
   },
   {
-    "id": "Frequency_in_overall_dataset",
+    "id": "frequencyInOverallDataset",
     "label": "Frequency in overall dataset",
     "sortable": true
   },
   {
-    "id": "Total_primary_tumors_mutated_Over_Primary_tumors_in_dataset",
+    "id": "totalPrimaryTumorsMutatedOverPrimaryTumorsInDataset",
     "label": "Total primary tumors mutated Over Primary tumors in dataset",
     "sortable": true
   },
   {
-    "id": "Frequency_in_primary_tumors",
+    "id": "frequencyInPrimaryTumors",
     "label": "Frequency in primary tumors",
     "sortable": true
   },
   {
-    "id": "Total_relapse_tumors_mutated_Over_Relapse_tumors_in_dataset",
-    "label": "Total_relapse tumors mutated Over Relapse tumors in dataset",
+    "id": "totalRelapseTumorsMutatedOverRelapseTumorsInDataset",
+    "label": "Total relapse tumors mutated Over Relapse tumors in dataset",
     "sortable": true
   },
   {
-    "id": "Frequency_in_relapse_tumors",
+    "id": "frequencyInRelapseTumors",
     "label": "Frequency in relapse tumors",
     "sortable": true
   },
   {
     "id": "MONDO",
+    "label": "MONDO",
     "hidden": true
   },
   {
-    "id": "EFO",
+    "id": "diseaseFromSourceMappedId",
+    "label": "EFO",
     "hidden": true
   }
 ]

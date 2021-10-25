@@ -1,7 +1,7 @@
 [
   {
-    "id": "Gene_symbol",
-    "label": "Targets",
+    "id": "geneSymbol",
+    "label": "Target",
     "sortable": true,
     "internalLink": true
   },
@@ -11,7 +11,7 @@
     "sortable": true
   },
   {
-    "id": "Dataset",
+    "id": "dataset",
     "label": "Dataset",
     "sortable": true
   },
@@ -22,83 +22,87 @@
     "internalLink": true
   },
   {
-    "id": "EFO",
+    "id": "diseaseFromSourceMappedId",
+    "label": "EFO",
     "hidden": true
   },
   {
     "id": "MONDO",
+    "label": "MONDO",
     "hidden": true
   },
   {
-    "id": "Gene_full_name",
+    "id": "geneFullName",
     "label": "Gene full name",
     "sortable": true
   },
   {
-    "id": "Gene_type",
+    "id": "geneType",
     "label": "Gene type",
     "sortable": true
   },
   {
-    "id": "Protein_RefSeq_ID",
+    "id": "proteinRefseqId",
     "label": "Protein RefSeq ID",
     "sortable": true
   },
   {
-    "id": "Gene_Ensembl_ID",
+    "id": "targetFromSourceId",
+    "label": "Gene Ensembl ID",
     "hidden": true
   },
   {
-    "id": "Protein_Ensembl_ID",
+    "id": "proteinEnsemblId",
+    "label": "Protein Ensembl Id",
     "hidden": true
   },
   {
-    "id": "Total_mutations_Over_Patients_in_dataset",
+    "id": "totalMutationsOverPatientsInDataset",
     "label": "Total mutations Over Patients in dataset",
     "sortable": true
   },
   {
-    "id": "Frequency_in_overall_dataset",
+    "id": "frequencyInOverallDataset",
     "label": "Frequency in overall dataset",
     "sortable": true
   },
   {
-    "id": "Total_primary_tumors_mutated_Over_Primary_tumors_in_dataset",
+    "id": "totalPrimaryTumorsMutatedOverPrimaryTumorsInDataset",
     "label": "Total primary tumors mutated Over Primary tumors in dataset",
     "sortable": true
   },
   {
-    "id": "Frequency_in_primary_tumors",
+    "id": "frequencyInPrimaryTumors",
     "label": "Frequency in primary tumors",
     "sortable": true
   },
   {
-    "id": "Total_relapse_tumors_mutated_Over_Relapse_tumors_in_dataset",
+    "id": "totalRelapseTumorsMutatedOverRelapseTumorsInDataset",
     "label": "Total relapse tumors mutated Over Relapse tumors in dataset",
     "sortable": true
   },
   {
-    "id": "Frequency_in_relapse_tumors",
+    "id": "frequencyInRelapseTumors",
     "label": "Frequency in relapse tumors",
     "sortable": true
   },
   {
-    "id": "OncoKB_cancer_gene",
-    "label": "OncoKB cancer geneD",
+    "id": "OncoKBCancerGene",
+    "label": "OncoKB cancer gene",
     "sortable": true
   },
   {
-    "id": "OncoKB_oncogene_TSG",
+    "id": "OncoKBOncogeneTSG",
     "label": "OncoKB oncogene TSG",
     "sortable": true
   },
   {
-    "id": "PedcBio_PedOT_mutations_plot_URL",
+    "id": "pedcbioPedotOncoprintPlotURL",
     "label": "PedcBio Mutations",
     "externalLink": true
   },
   {
-    "id": "PedcBio_PedOT_oncoprint_plot_URL",
+    "id": "pedcbioPedotMutationsPlotURL",
     "label": "PedcBio Oncoprint",
     "externalLink": true
   }

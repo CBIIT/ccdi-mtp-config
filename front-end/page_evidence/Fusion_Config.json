@@ -1,32 +1,32 @@
 [
   {
-    "id": "FusionName",
+    "id": "fusionName",
     "label": "Fusion Name",
     "sortable": true
   },
   {
-    "id": "Fusion_Type",
+    "id": "fusionType",
     "label": "Fusion Type",
     "sortable": true
   },
   {
-    "id": "Gene_Symbol",
-    "label": "Targets",
+    "id": "geneSymbol",
+    "label": "Target",
     "sortable": true,
     "internalLink": true
   },
   {
-    "id": "Gene_Position",
+    "id": "genePosition",
     "label": "Gene Position",
     "sortable": true
   },
   {
-    "id": "Fusion_anno",
+    "id": "fusionAnno",
     "label": "Fusion anno",
     "sortable": true
   },
   {
-    "id": "BreakpointLocation",
+    "id": "breakpointLocation",
     "label": "Breakpoint location",
     "sortable": true
   },
@@ -36,42 +36,43 @@
     "sortable": true
   },
   {
-    "id": "Kinase_domain_retained_Gene1A",
+    "id": "kinaseDomainRetainedGene1A",
     "label": "Kinase domain retained Gene1A",
     "sortable": true
   },
   {
-    "id": "Kinase_domain_retained_Gene1B",
+    "id": "kinaseDomainRetainedGene1B",
     "label": "Kinase domain retained Gene1B",
     "sortable": true
   },
   {
-    "id": "Reciprocal_exists_either_gene_kinase",
+    "id": "reciprocalExistsEitherGeneKinase",
     "label": "Reciprocal exists either gene kinase",
     "sortable": true
   },
   {
-    "id": "Gene1A_anno",
+    "id": "gene1AAnno",
     "label": "Gene1A anno",
     "sortable": true
   },
   {
-    "id": "Gene1B_anno",
+    "id": "gene1BAnno",
     "label": "Gene1B anno",
     "sortable": true
   },
   {
-    "id": "Gene2A_anno",
+    "id": "gene2AAnno",
     "label": "Gene2A anno",
     "sortable": true
   },
   {
-    "id": "Gene2B_anno",
+    "id": "gene2BAnno",
     "label": "Gene2B anno",
     "sortable": true
   },
   {
-    "id": "Gene_Ensembl_ID",
+    "id": "targetFromSourceId",
+    "label": "Gene Ensembl ID",
     "hidden": true
   },
   {
@@ -81,51 +82,53 @@
     "internalLink": true
   },
   {
-    "id": "RMTL",
+    "id": "PMTL",
     "label": "PMTL",
     "sortable": true
   },
   {
-    "id": "Dataset",
+    "id": "dataset",
     "label": "Dataset",
     "sortable": true
   },
   {
-    "id": "Total_alterations_Over_Patients_in_dataset",
-    "label": "Total_alterations Over Patients in dataset",
+    "id": "totalAlterationsOverNumberPatientsInDataset",
+    "label": "Total alterations Over Patients in dataset",
     "sortable": true
   },
   {
-    "id": "Frequency_in_overall_dataset",
+    "id": "frequencyInOverallDataset",
     "label": "Frequency in overall dataset",
     "sortable": true
   },
   {
-    "id": "Total_primary_tumors_mutated_Over_Primary_tumors_in_dataset",
+    "id": "totalPrimaryTumorsMutatedOverPrimaryTumorsInDataset",
     "label": "Total primary tumors mutated Over Primary tumors in dataset",
     "sortable": true
   },
   {
-    "id": "Frequency_in_primary_tumors",
+    "id": "frequencyInPrimaryTumors",
     "label": "Frequency in primary tumors",
     "sortable": true
   },
   {
-    "id": "Total_relapse_tumors_mutated_Over_Relapse_tumors_in_dataset",
-    "label": "Total_relapse tumors mutated Over Relapse tumors in dataset",
+    "id": "totalRelapseTumorsMutatedOverRelapseTumorsInDataset",
+    "label": "Total relapse tumors mutated Over Relapse tumors in dataset",
     "sortable": true
   },
   {
-    "id": "Frequency_in_relapse_tumors",
+    "id": "frequencyInRelapseTumors",
     "label": "Frequency in relapse tumors",
     "sortable": true
   },
   {
     "id": "MONDO",
+    "label": "MONDO",
     "hidden": true
   },
   {
-    "id": "EFO",
+    "id": "diseaseFromSourceMappedId",
+    "label": "EFO",
     "hidden": true
   }
 ]
