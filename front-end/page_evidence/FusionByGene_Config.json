@@ -3,67 +3,68 @@
     "id": "geneSymbol",
     "label": "Target",
     "sortable": true,
-    "internalLink": true
+    "internalLink": true,
+    "Chop_field_name": "Gene_symbol"
   },
   {
     "id": "targetFromSourceId",
     "label": "Gene Ensembl ID",
-    "hidden": true
+    "hidden": true,
+    "Chop_field_name": "targetFromSourceId"
   },
   {
     "id": "Disease",
     "label": "Disease",
     "sortable": true,
-    "internalLink": true
+    "internalLink": true,
+    "Chop_field_name": "Disease"
   },
   {
     "id": "PMTL",
     "label": "PMTL",
-    "sortable": true
+    "sortable": true,
+    "Chop_field_name": "PMTL"
   },
   {
     "id": "dataset",
     "label": "Dataset",
-    "sortable": true
+    "sortable": true,
+    "Chop_field_name": "Dataset"
   },
   {
     "id": "totalAlterationsOverNumberPatientsInDataset",
     "label": "Total alterations Over Patients in dataset",
-    "sortable": true
+    "sortable": true,
+    "Chop_field_name": "Total_alterations_Over_Patients_in_dataset"
   },
   {
     "id": "frequencyInOverallDataset",
     "label": "Frequency in overall dataset",
-    "sortable": true
+    "sortable": true,
+    "Chop_field_name": "Frequency_in_overall_dataset"
   },
   {
     "id": "totalPrimaryTumorsMutatedOverPrimaryTumorsInDataset",
     "label": "Total primary tumors mutated Over Primary tumors in dataset",
-    "sortable": true
+    "sortable": true,
+    "Chop_field_name": "Total_primary_tumors_mutated_Over_Primary_tumors_in_dataset"
   },
   {
     "id": "frequencyInPrimaryTumors",
     "label": "Frequency in primary tumors",
-    "sortable": true
+    "sortable": true,
+    "Chop_field_name": "Frequency_in_primary_tumors"
   },
   {
     "id": "totalRelapseTumorsMutatedOverRelapseTumorsInDataset",
     "label": "Total relapse tumors mutated Over Relapse tumors in dataset",
-    "sortable": true
+    "sortable": true,
+    "Chop_field_name": "Total_relapse_tumors_mutated_Over_Relapse_tumors_in_dataset"
   },
   {
     "id": "frequencyInRelapseTumors",
     "label": "Frequency in relapse tumors",
-    "sortable": true
-  },
-  {
-    "id": "MONDO",
-    "label": "MONDO",
-    "hidden": true
-  },
-  {
-    "id": "diseaseFromSourceMappedId",
-    "label": "EFO",
-    "hidden": true
+    "sortable": true,
+    "Chop_field_name": "Frequency_in_relapse_tumors"
   }
 ]
