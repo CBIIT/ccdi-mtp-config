@@ -54,7 +54,6 @@
     "label": "Total primary tumors altered/Primary tumors in dataset",
     "sortable": true,
     "chopFieldName": "Total_primary_tumors_altered_over_Primary_tumors_in_dataset"
-
   },
   {
     "id": "frequencyInPrimaryTumors",

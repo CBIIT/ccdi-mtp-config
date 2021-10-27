@@ -14,13 +14,14 @@ For every key in the JSON object, provide a detailed description by creating the
         sortable: Boolean,                    - optional
         hidden: Boolean,                      - optional
         externalLink: Boolean,                - optional
-        internalLink: Boolean                 - optional
+        internalLink: Boolean,                - optional
+        chopFieldName: String                 - optional
       },
       {...}
       ....
     ]
 
-  <b>id</b>: JSON object key name.
+  <b>id</b>: The ID name used to describe this column from FNL API.
 
   <b>label</b>: Column display name that will appear in the table as the column header. If label is not present, a capitalized and spaced version of id will be used.
 
@@ -31,4 +32,6 @@ For every key in the JSON object, provide a detailed description by creating the
   <b>externalLink</b>: If true, column will be a hyperlink to external link. 
 
   <b>internalLink</b>: If true, column will be a hyperlink to internal link, ex. (Disease, Target, Drug, or Evidence) page. 
+
+  <b>chopFieldName</b>: The ID name used to describe this column from CHoP source file.
 </p>
