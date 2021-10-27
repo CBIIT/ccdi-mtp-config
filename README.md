@@ -15,7 +15,7 @@ For every key in the JSON object, provide a detailed description by creating the
         hidden: Boolean,                      - optional
         externalLink: Boolean,                - optional
         internalLink: Boolean,                - optional
-        Chop_field_name: String               - optional
+        chopFieldName: String                 - optional
       },
       {...}
       ....
@@ -33,5 +33,5 @@ For every key in the JSON object, provide a detailed description by creating the
 
   <b>internalLink</b>: If true, column will be a hyperlink to internal link, ex. (Disease, Target, Drug, or Evidence) page. 
 
-  <b>Chop_field_name</b>: The ID name used to describe this column from CHoP source file.
+  <b>chopFieldName</b>: The ID name used to describe this column from CHoP source file.
 </p>
