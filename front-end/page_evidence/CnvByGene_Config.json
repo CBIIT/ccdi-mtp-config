@@ -39,7 +39,7 @@
   },
   {
     "id": "totalAlterationsOverPatientsInDataset",
-    "label": "Total alterations/Patients in dataset",
+    "label": "Total alterations / Subjects in dataset",
     "sortable": true,
     "chopFieldName": "Total_alterations_over_Patients_in_dataset"
   },
