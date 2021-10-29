@@ -38,7 +38,7 @@
   },
   {
     "id": "annots",
-    "label": "annots",
+    "label": "Annotations",
     "sortable": true,
     "chopFieldName": "annots"
   },
