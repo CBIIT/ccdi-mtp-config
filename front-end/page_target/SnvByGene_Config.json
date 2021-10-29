@@ -123,7 +123,7 @@
   },
   {
     "id": "pedcbioPedotMutationsPlotURL",
-    "label": "PedcBio Oncoprint",
+    "label": "PedcBio PedOT mutation plot",
     "externalLink": true,
     "chopFieldName": "PedcBio_PedOT_mutations_plot_URL"
   }
