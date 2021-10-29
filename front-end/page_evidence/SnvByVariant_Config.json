@@ -111,7 +111,7 @@
   },
   {
     "id": "totalMutationsOverPatientsInDataset",
-    "label": "Total mutations Over Patients in dataset",
+    "label": "Total mutations / Subjects in dataset",
     "sortable": true,
     "chopFieldName": "Total_mutations_Over_Patients_in_dataset"
   },
