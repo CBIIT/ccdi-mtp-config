@@ -92,16 +92,16 @@
     "chopFieldName": "Gene_full_name"
   },
   {
-    "id": "proteinRefseqId",
-    "label": "Protein RefSeq ID",
-    "sortable": true,
-    "chopFieldName": "Protein_RefSeq_ID"
-  },
-  {
     "id": "targetFromSourceId",
     "label": "Gene Ensembl ID",
     "hidden": true,
     "chopFieldName": "targetFromSourceId"
+  },
+  {
+    "id": "proteinRefseqId",
+    "label": "Protein RefSeq ID",
+    "sortable": true,
+    "chopFieldName": "Protein_RefSeq_ID"
   },
   {
     "id": "proteinEnsemblId",
