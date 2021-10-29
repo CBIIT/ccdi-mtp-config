@@ -81,7 +81,7 @@
   },
   {
     "id": "totalPrimaryTumorsMutatedOverPrimaryTumorsInDataset",
-    "label": "Total primary tumors mutated Over Primary tumors in dataset",
+    "label": "Total primary tumors mutated / Primary tumors in dataset",
     "sortable": true,
     "chopFieldName": "Total_primary_tumors_mutated_Over_Primary_tumors_in_dataset"
   },
