@@ -63,7 +63,7 @@
   },
   {
     "id": "totalRelapseTumorsAlteredOverRelapseTumorsInDataset",
-    "label": "Total relapse tumors altered/Relapse tumors in dataset",
+    "label": "Total relapse tumors altered / Relapse tumors in dataset",
     "sortable": true,
     "chopFieldName": "Total_relapse_tumors_altered_over_Relapse_tumors_in_dataset"
   },
