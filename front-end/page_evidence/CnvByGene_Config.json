@@ -39,7 +39,7 @@
   },
   {
     "id": "totalAlterationsOverPatientsInDataset",
-    "label": "Total alterations/Patients in dataset",
+    "label": "Total alterations / Subjects in dataset",
     "sortable": true,
     "chopFieldName": "Total_alterations_over_Patients_in_dataset"
   },
@@ -51,10 +51,9 @@
   },
   {
     "id": "totalPrimaryTumorsAlteredOverPrimaryTumorsInDataset",
-    "label": "Total primary tumors altered/Primary tumors in dataset",
+    "label": "Total primary tumors altered / Primary tumors in dataset",
     "sortable": true,
     "chopFieldName": "Total_primary_tumors_altered_over_Primary_tumors_in_dataset"
-
   },
   {
     "id": "frequencyInPrimaryTumors",
@@ -64,7 +63,7 @@
   },
   {
     "id": "totalRelapseTumorsAlteredOverRelapseTumorsInDataset",
-    "label": "Total relapse tumors altered/Relapse tumors in dataset",
+    "label": "Total relapse tumors altered / Relapse tumors in dataset",
     "sortable": true,
     "chopFieldName": "Total_relapse_tumors_altered_over_Relapse_tumors_in_dataset"
   },
@@ -94,7 +93,7 @@
   },
   {
     "id": "OncoKBOncogeneTSG",
-    "label": "OncoKB oncogene TSG",
+    "label": "OncoKB Oncogene|TSG",
     "sortable": true,
     "chopFieldName": "OncoKB_oncogene_TSG"
   },

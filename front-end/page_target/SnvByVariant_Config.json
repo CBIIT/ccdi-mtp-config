@@ -92,16 +92,16 @@
     "chopFieldName": "Gene_full_name"
   },
   {
-    "id": "proteinRefseqId",
-    "label": "Protein RefSeq ID",
-    "sortable": true,
-    "chopFieldName": "Protein_RefSeq_ID"
-  },
-  {
     "id": "targetFromSourceId",
     "label": "Gene Ensembl ID",
     "hidden": true,
     "chopFieldName": "targetFromSourceId"
+  },
+  {
+    "id": "proteinRefseqId",
+    "label": "Protein RefSeq ID",
+    "sortable": true,
+    "chopFieldName": "Protein_RefSeq_ID"
   },
   {
     "id": "proteinEnsemblId",
@@ -111,7 +111,7 @@
   },
   {
     "id": "totalMutationsOverPatientsInDataset",
-    "label": "Total mutations Over Patients in dataset",
+    "label": "Total mutations / Subjects in dataset",
     "sortable": true,
     "chopFieldName": "Total_mutations_Over_Patients_in_dataset"
   },
@@ -123,7 +123,7 @@
   },
   {
     "id": "totalPrimaryTumorsMutatedOverPrimaryTumorsInDataset",
-    "label": "Total primary tumors mutated Over Primary tumors in dataset",
+    "label": "Total primary tumors mutated / Primary tumors in dataset",
     "sortable": true,
     "chopFieldName": "Total_primary_tumors_mutated_Over_Primary_tumors_in_dataset"
   },
@@ -135,7 +135,7 @@
   },
   {
     "id": "totalRelapseTumorsMutatedOverRelapseTumorsInDataset",
-    "label": "Total relapse tumors mutated Over Relapse tumors in dataset",
+    "label": "Total relapse tumors mutated / Relapse tumors in dataset",
     "sortable": true,
     "chopFieldName": "Total_relapse_tumors_mutated_Over_Relapse_tumors_in_dataset"
   },
@@ -159,7 +159,7 @@
   },
   {
     "id": "OncoKBOncogeneTSG",
-    "label": "OncoKB oncogene TSG",
+    "label": "OncoKB Oncogene|TSG",
     "sortable": true,
     "chopFieldName": "OncoKB_oncogene_TSG"
   }

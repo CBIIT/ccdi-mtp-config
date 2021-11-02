@@ -26,7 +26,7 @@
   },
   {
     "id": "fusionAnno",
-    "label": "Fusion anno",
+    "label": "Fusion annotation",
     "sortable": true,
     "chopFieldName": "Fusion_anno"
   },
@@ -38,7 +38,7 @@
   },
   {
     "id": "annots",
-    "label": "annots",
+    "label": "Annotations",
     "sortable": true,
     "chopFieldName": "annots"
   },
@@ -62,25 +62,25 @@
   },
   {
     "id": "gene1AAnno",
-    "label": "Gene1A anno",
+    "label": "Gene1A annotation",
     "sortable": true,
     "chopFieldName": "Gene1A_anno"
   },
   {
     "id": "gene1BAnno",
-    "label": "Gene1B anno",
+    "label": "Gene1B annotation",
     "sortable": true,
     "chopFieldName": "Gene1B_anno"
   },
   {
     "id": "gene2AAnno",
-    "label": "Gene2A anno",
+    "label": "Gene2A annotation",
     "sortable": true,
     "chopFieldName": "Gene2A_anno"
   },
   {
     "id": "gene2BAnno",
-    "label": "Gene2B anno",
+    "label": "Gene2B annotation",
     "sortable": true,
     "chopFieldName": "Gene2B_anno"
   },
@@ -111,7 +111,7 @@
   },
   {
     "id": "totalAlterationsOverNumberPatientsInDataset",
-    "label": "Total alterations Over Patients in dataset",
+    "label": "Total alterations / Subjects in dataset",
     "sortable": true,
     "chopFieldName": "Total_alterations_Over_Patients_in_dataset"
   },
@@ -123,7 +123,7 @@
   },
   {
     "id": "totalPrimaryTumorsMutatedOverPrimaryTumorsInDataset",
-    "label": "Total primary tumors mutated Over Primary tumors in dataset",
+    "label": "Total primary tumors mutated / Primary tumors in dataset",
     "sortable": true,
     "chopFieldName": "Total_primary_tumors_mutated_Over_Primary_tumors_in_dataset"
   },
@@ -135,7 +135,7 @@
   },
   {
     "id": "totalRelapseTumorsMutatedOverRelapseTumorsInDataset",
-    "label": "Total relapse tumors mutated Over Relapse tumors in dataset",
+    "label": "Total relapse tumors mutated / Relapse tumors in dataset",
     "sortable": true,
     "chopFieldName": "Total_relapse_tumors_mutated_Over_Relapse_tumors_in_dataset"
   },

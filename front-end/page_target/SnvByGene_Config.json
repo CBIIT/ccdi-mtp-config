@@ -69,7 +69,7 @@
   },
   {
     "id": "totalMutationsOverPatientsInDataset",
-    "label": "Total mutations Over Patients in dataset",
+    "label": "Total mutations / Subjects in dataset",
     "sortable": true,
     "chopFieldName": "Total_mutations_Over_Patients_in_dataset"
   },
@@ -81,7 +81,7 @@
   },
   {
     "id": "totalPrimaryTumorsMutatedOverPrimaryTumorsInDataset",
-    "label": "Total primary tumors mutated Over Primary tumors in dataset",
+    "label": "Total primary tumors mutated / Primary tumors in dataset",
     "sortable": true,
     "chopFieldName": "Total_primary_tumors_mutated_Over_Primary_tumors_in_dataset"
   },
@@ -93,7 +93,7 @@
   },
   {
     "id": "totalRelapseTumorsMutatedOverRelapseTumorsInDataset",
-    "label": "Total relapse tumors mutated Over Relapse tumors in dataset",
+    "label": "Total relapse tumors mutated / Relapse tumors in dataset",
     "sortable": true,
     "chopFieldName": "Total_relapse_tumors_mutated_Over_Relapse_tumors_in_dataset"
   },
@@ -111,19 +111,19 @@
   },
   {
     "id": "OncoKBOncogeneTSG",
-    "label": "OncoKB oncogene TSG",
+    "label": "OncoKB Oncogene|TSG",
     "sortable": true,
     "chopFieldName": "OncoKB_oncogene_TSG"
   },
   {
     "id": "pedcbioPedotOncoprintPlotURL",
-    "label": "PedcBio Mutations",
+    "label": "PedcBio PedOT oncoprint plot",
     "externalLink": true,
     "chopFieldName": "PedcBio_PedOT_oncoprint_plot_URL"
   },
   {
     "id": "pedcbioPedotMutationsPlotURL",
-    "label": "PedcBio Oncoprint",
+    "label": "PedcBio PedOT mutation plot",
     "externalLink": true,
     "chopFieldName": "PedcBio_PedOT_mutations_plot_URL"
   }
