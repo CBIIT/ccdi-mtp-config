@@ -93,7 +93,7 @@
   },
   {
     "id": "OncoKBOncogeneTSG",
-    "label": "OncoKB Oncogene/TSG",
+    "label": "OncoKB Oncogene|TSG",
     "sortable": true,
     "chopFieldName": "OncoKB_oncogene_TSG"
   },
