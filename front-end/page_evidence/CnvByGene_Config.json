@@ -2,6 +2,7 @@
   {
     "id": "geneSymbol",
     "label": "Target",
+    "exportLabel": "target",
     "sortable": true,
     "internalLink": true,
     "chopFieldName": "Gene_symbol"
@@ -9,6 +10,7 @@
   {
     "id": "targetFromSourceId",
     "label": "Gene Ensembl ID",
+    "exportLabel": "geneEnsemblID",
     "hidden": true,
     "chopFieldName": "targetFromSourceId"
   },
@@ -40,6 +42,7 @@
   {
     "id": "totalAlterationsOverPatientsInDataset",
     "label": "Total alterations / Subjects in dataset",
+    "exportLabel": "totalAlterationsOverSubjectsInDataset",
     "sortable": true,
     "chopFieldName": "Total_alterations_over_Patients_in_dataset"
   },
@@ -100,6 +103,7 @@
   {
     "id": "diseaseFromSourceMappedId",
     "label": "EFO",
+    "exportLabel": "efo",
     "hidden": true,
     "chopFieldName": "diseaseFromSourceMappedId"
   },
