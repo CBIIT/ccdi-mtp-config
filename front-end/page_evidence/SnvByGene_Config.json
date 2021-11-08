@@ -29,6 +29,7 @@
   {
     "id": "diseaseFromSourceMappedId",
     "label": "EFO",
+    "exportLabel": "efo",
     "hidden": true,
     "chopFieldName": "diseaseFromSourceMappedId"
   },
