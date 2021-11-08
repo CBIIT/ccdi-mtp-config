@@ -10,7 +10,7 @@
   {
     "id": "targetFromSourceId",
     "label": "Gene Ensembl ID",
-    "exportLabel": "geneEnsemblID",
+    "exportLabel": "geneEnsemblId",
     "hidden": true,
     "chopFieldName": "targetFromSourceId"
   },
