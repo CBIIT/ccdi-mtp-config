@@ -41,6 +41,7 @@
   {
     "id": "annots",
     "label": "Annotations",
+    "exportLabel": "annotations",
     "sortable": true,
     "chopFieldName": "annots"
   },
