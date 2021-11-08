@@ -28,6 +28,7 @@
   {
     "id": "fusionAnno",
     "label": "Fusion annotation",
+    "exportLabel": "fusionAnnotation",
     "sortable": true,
     "chopFieldName": "Fusion_anno"
   },
