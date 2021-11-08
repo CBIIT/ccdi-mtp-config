@@ -2,7 +2,6 @@
   {
     "id": "fusionName",
     "label": "Fusion Name",
-    "exportLabel": "target",
     "sortable": true,
     "chopFieldName": "FusionName"
   },
