@@ -114,6 +114,7 @@
   {
     "id": "totalMutationsOverPatientsInDataset",
     "label": "Total mutations / Subjects in dataset",
+    "exportLabel": "totalMutationsOverSubjectsInDataset",
     "sortable": true,
     "chopFieldName": "Total_mutations_Over_Patients_in_dataset"
   },
