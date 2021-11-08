@@ -42,6 +42,7 @@
   {
     "id": "totalAlterationsOverPatientsInDataset",
     "label": "Total alterations / Subjects in dataset",
+    "exportLabel": "totalAlterationsOverSubjectsInDataset",
     "sortable": true,
     "chopFieldName": "Total_alterations_over_Patients_in_dataset"
   },
