@@ -14,6 +14,7 @@
   {
     "id": "geneSymbol",
     "label": "Target",
+    "exportLabel": "target",
     "sortable": true,
     "internalLink": true,
     "chopFieldName": "Gene_symbol"
