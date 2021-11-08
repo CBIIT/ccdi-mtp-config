@@ -66,6 +66,7 @@
   {
     "id": "gene1AAnno",
     "label": "Gene1A annotation",
+    "exportLabel": "gene1AAnnotation",
     "sortable": true,
     "chopFieldName": "Gene1A_anno"
   },
