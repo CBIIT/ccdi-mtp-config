@@ -129,7 +129,7 @@
   {
     "id": "pedcbioPedotMutationsPlotURL",
     "label": "PedcBio PedOT mutation plot",
-    "exportLabel": "pedcbioPedotMutationsPlot",
+    "exportLabel": "pedcbioPedOtMutationsPlot",
     "externalLink": true,
     "chopFieldName": "PedcBio_PedOT_mutations_plot_URL"
   }
