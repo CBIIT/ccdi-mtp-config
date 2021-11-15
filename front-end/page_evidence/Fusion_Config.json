@@ -13,7 +13,7 @@
   },
   {
     "id": "geneSymbol",
-    "label": "Target",
+    "label": "Gene symbol",
     "sortable": true,
     "internalLink": true,
     "chopFieldName": "Gene_symbol"
@@ -27,6 +27,7 @@
   {
     "id": "fusionAnno",
     "label": "Fusion annotation",
+    "exportLabel": "fusionAnnotation",
     "sortable": true,
     "chopFieldName": "Fusion_anno"
   },
@@ -39,6 +40,7 @@
   {
     "id": "annots",
     "label": "Annotations",
+    "exportLabel": "annotations",
     "sortable": true,
     "chopFieldName": "annots"
   },
@@ -63,30 +65,35 @@
   {
     "id": "gene1AAnno",
     "label": "Gene1A annotation",
+    "exportLabel": "gene1AAnnotation",
     "sortable": true,
     "chopFieldName": "Gene1A_anno"
   },
   {
     "id": "gene1BAnno",
     "label": "Gene1B annotation",
+    "exportLabel": "gene1BAnnotation",
     "sortable": true,
     "chopFieldName": "Gene1B_anno"
   },
   {
     "id": "gene2AAnno",
     "label": "Gene2A annotation",
+    "exportLabel": "gene2AAnnotation",
     "sortable": true,
     "chopFieldName": "Gene2A_anno"
   },
   {
     "id": "gene2BAnno",
     "label": "Gene2B annotation",
+    "exportLabel": "gene2BAnnotation",
     "sortable": true,
     "chopFieldName": "Gene2B_anno"
   },
   {
     "id": "targetFromSourceId",
     "label": "Gene Ensembl ID",
+    "exportLabel": "geneEnsemblId",
     "hidden": true,
     "chopFieldName": "targetFromSourceId"
   },
@@ -112,6 +119,7 @@
   {
     "id": "totalAlterationsOverNumberPatientsInDataset",
     "label": "Total alterations / Subjects in dataset",
+    "exportLabel": "totalAlterationsOverSubjectsInDataset",
     "sortable": true,
     "chopFieldName": "Total_alterations_Over_Patients_in_dataset"
   },
@@ -154,6 +162,7 @@
   {
     "id": "diseaseFromSourceMappedId",
     "label": "EFO",
+    "exportLabel": "efo",
     "hidden": true,
     "chopFieldName": "diseaseFromSourceMappedId"
   }

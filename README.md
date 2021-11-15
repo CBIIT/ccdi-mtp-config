@@ -10,7 +10,8 @@ For every key in the JSON object, provide a detailed description by creating the
     [
       {  
         id: String,                           - required 
-        label: String,                        - optional 
+        label: String,                        - optional
+        exportLabel: String,                  - optional 
         sortable: Boolean,                    - optional
         hidden: Boolean,                      - optional
         externalLink: Boolean,                - optional
@@ -24,6 +25,8 @@ For every key in the JSON object, provide a detailed description by creating the
   <b>id</b>: The ID name used to describe this column from FNL API.
 
   <b>label</b>: Column display name that will appear in the table as the column header. If label is not present, a capitalized and spaced version of id will be used.
+
+  <b>exportLabel</b>: Column label shown on the exported file header. If not present, camelCase value from id field will be used. Camel case will also be applied to exportLabel value.
 
   <b>hidden</b>: If true, column will not be shown in the table. Downloaded data will still include columns that are hidden.
 
