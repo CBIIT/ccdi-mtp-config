@@ -13,7 +13,7 @@
   },
   {
     "id": "geneSymbol",
-    "label": "Target",
+    "label": "Gene symbol",
     "sortable": true,
     "internalLink": true,
     "chopFieldName": "Gene_symbol"
