@@ -68,5 +68,18 @@
     "label": "Frequency in relapse tumors",
     "sortable": true,
     "chopFieldName": "Frequency_in_relapse_tumors"
+  },
+  {
+    "id": "MONDO",
+    "label": "MONDO",
+    "hidden": true,
+    "chopFieldName": "MONDO"
+  },
+  {
+    "id": "diseaseFromSourceMappedId",
+    "label": "EFO",
+    "exportLabel": "efo",
+    "hidden": true,
+    "chopFieldName": "diseaseFromSourceMappedId"
   }
 ]

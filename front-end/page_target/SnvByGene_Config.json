@@ -121,14 +121,14 @@
   {
     "id": "pedcbioPedotOncoprintPlotURL",
     "label": "PedcBio PedOT oncoprint plot",
-    "exportLabel": "pedcbioPedOtOncoprintPlot",
+    "exportLabel": "pedcbioPedotOncoprintPlot",
     "externalLink": true,
     "chopFieldName": "PedcBio_PedOT_oncoprint_plot_URL"
   },
   {
     "id": "pedcbioPedotMutationsPlotURL",
     "label": "PedcBio PedOT mutation plot",
-    "exportLabel": "pedcbioPedOtMutationsPlot",
+    "exportLabel": "pedcbioPedotMutationsPlot",
     "externalLink": true,
     "chopFieldName": "PedcBio_PedOT_mutations_plot_URL"
   }
