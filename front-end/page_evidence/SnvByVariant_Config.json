@@ -102,7 +102,7 @@
   {
     "id": "proteinRefseqId",
     "label": "Protein RefSeq ID",
-    "sortable": true,
+    "sortable": false,
     "chopFieldName": "Protein_RefSeq_ID"
   },
   {
