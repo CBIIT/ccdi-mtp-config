@@ -2,7 +2,7 @@
   {
     "id": "geneSymbol",
     "label": "Gene symbol",
-    "sortable": true,
+    "sortable": false,
     "internalLink": true,
     "chopFieldName": "Gene_symbol"
   },
