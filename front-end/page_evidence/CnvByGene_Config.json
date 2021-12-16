@@ -102,7 +102,7 @@
     "id": "OncoKBCancerGene",
     "label": "OncoKB cancer gene",
     "exportLabel": "oncoKbCancerGene",
-    "sortable": true,
+    "sortable": false,
     "chopFieldName": "OncoKB_cancer_gene"
   },
   {
