@@ -84,7 +84,7 @@
   {
     "id": "PMTL",
     "label": "PMTL",
-    "sortable": true,
+    "sortable": false,
     "chopFieldName": "PMTL"
   },
   {
