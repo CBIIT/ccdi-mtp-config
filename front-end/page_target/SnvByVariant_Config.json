@@ -89,7 +89,7 @@
   {
     "id": "geneFullName",
     "label": "Gene full name",
-    "sortable": true,
+    "sortable": false,
     "chopFieldName": "Gene_full_name"
   },
   {
