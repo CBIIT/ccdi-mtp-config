@@ -2,14 +2,14 @@
   {
     "id": "geneSymbol",
     "label": "Gene symbol",
-    "sortable": true,
+    "sortable": false,
     "internalLink": true,
     "chopFieldName": "Gene_symbol"
   },
   {
     "id": "PMTL",
     "label": "PMTL",
-    "sortable": true,
+    "sortable": false,
     "chopFieldName": "PMTL"
   },
   {
@@ -41,19 +41,19 @@
   {
     "id": "geneFullName",
     "label": "Gene full name",
-    "sortable": true,
+    "sortable": false,
     "chopFieldName": "Gene_full_name"
   },
   {
     "id": "geneType",
     "label": "Gene type",
-    "sortable": true,
+    "sortable": false,
     "chopFieldName": "Gene_type"
   },
   {
     "id": "proteinRefseqId",
     "label": "Protein RefSeq ID",
-    "sortable": true,
+    "sortable": false,
     "chopFieldName": "Protein_RefSeq_ID"
   },
   {
@@ -109,13 +109,13 @@
   {
     "id": "OncoKBCancerGene",
     "label": "OncoKB cancer gene",
-    "sortable": true,
+    "sortable": false,
     "chopFieldName": "OncoKB_cancer_gene"
   },
   {
     "id": "OncoKBOncogeneTSG",
     "label": "OncoKB Oncogene|TSG",
-    "sortable": true,
+    "sortable": false,
     "chopFieldName": "OncoKB_oncogene_TSG"
   },
   {

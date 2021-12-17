@@ -2,7 +2,7 @@
   {
     "id": "geneSymbol",
     "label": "Gene symbol",
-    "sortable": true,
+    "sortable": false,
     "internalLink": true,
     "chopFieldName": "Gene_symbol"
   },
@@ -78,25 +78,25 @@
   {
     "id": "geneFullName",
     "label": "Gene full name",
-    "sortable": true,
+    "sortable": false,
     "chopFieldName": "Gene_full_name"
   },
   {
     "id": "PMTL",
     "label": "PMTL",
-    "sortable": true,
+    "sortable": false,
     "chopFieldName": "PMTL"
   },
   {
     "id": "OncoKBCancerGene",
     "label": "OncoKB cancer gene",
-    "sortable": true,
+    "sortable": false,
     "chopFieldName": "OncoKB_cancer_gene"
   },
   {
     "id": "OncoKBOncogeneTSG",
     "label": "OncoKB Oncogene|TSG",
-    "sortable": true,
+    "sortable": false,
     "chopFieldName": "OncoKB_oncogene_TSG"
   },
   {
