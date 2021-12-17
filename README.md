@@ -38,3 +38,23 @@ For every key in the JSON object, provide a detailed description by creating the
 
   <b>chopFieldName</b>: The ID name used to describe this column from CHoP source file.
 </p>
+
+<br><hr><br>
+
+Example URLs to MTP pages: <br>
+<ul>
+  Target Page (page_target):
+  <ul>
+    <li> https://ppdc-otp-qa.bento-tools.org/target/ENSG00000171094 </li>
+    <li> https://ppdc-otp-qa.bento-tools.org/target/ENSG00000097007 </li>
+    <li> https://ppdc-otp-qa.bento-tools.org/target/ENSG00000157764 </li>
+  </ul>
+
+  <br>
+  Evidence Page (page_evidence):
+  <ul>
+    <li> https://ppdc-otp-qa.bento-tools.org/evidence/ENSG00000171094/EFO_0000621 </li>
+    <li> https://ppdc-otp-qa.bento-tools.org/evidence/ENSG00000171094/EFO_0000616 </li>
+    <li> https://ppdc-otp-qa.bento-tools.org/evidence/ENSG00000157764/EFO_0000616 </li>
+  </ul>
+</ul>
