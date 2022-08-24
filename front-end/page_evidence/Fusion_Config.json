@@ -15,7 +15,10 @@
     "id": "geneSymbol",
     "label": "Gene symbol",
     "sortable": false,
-    "internalLink": true,
+    "internalLink": {
+      "url": "/target/${targetFromSourceId}",
+      "linkText": "${geneSymbol}"
+    },
     "chopFieldName": "Gene_symbol"
   },
   {
