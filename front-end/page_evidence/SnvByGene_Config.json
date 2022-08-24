@@ -128,7 +128,10 @@
     "id": "pedcbioPedotOncoprintPlotURL",
     "label": "PedcBio PedOT oncoprint plot",
     "exportLabel": "pedcbioPedotOncoprintPlot",
-    "externalLink": true,
+    "externalLink": {
+      "url": "${pedcbioPedotOncoprintPlotURL}",
+      "linkText": "oncoprint"
+    },
     "chopFieldName": "PedcBio_PedOT_oncoprint_plot_URL"
   },
   {
