@@ -138,7 +138,10 @@
     "id": "pedcbioPedotMutationsPlotURL",
     "label": "PedcBio PedOT mutation plot",
     "exportLabel": "pedcbioPedotMutationsPlot",
-    "externalLink": true,
+    "externalLink": {
+      "url": "${pedcbioPedotMutationsPlotURL}",
+      "linkText": "mutations"
+    },
     "chopFieldName": "PedcBio_PedOT_mutations_plot_URL"
   }
 ]
