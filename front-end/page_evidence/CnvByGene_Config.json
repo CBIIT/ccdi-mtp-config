@@ -42,7 +42,10 @@
     "label": "Disease",
     "exportLabel": "disease",
     "sortable": true,
-    "internalLink": true,
+    "internalLink": {
+      "url": "/disease/${diseaseFromSourceMappedId}",
+      "linkText": "${Disease}"
+    },
     "chopFieldName": "Disease"
   },
   {

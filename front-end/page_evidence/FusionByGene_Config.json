@@ -20,7 +20,10 @@
     "id": "Disease",
     "label": "Disease",
     "sortable": true,
-    "internalLink": true,
+    "internalLink": {
+      "url": "/disease/${diseaseFromSourceMappedId}",
+      "linkText": "${Disease}"
+    },
     "chopFieldName": "Disease"
   },
   {
