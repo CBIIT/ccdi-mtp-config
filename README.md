@@ -14,8 +14,14 @@ For every key in the JSON object, provide a detailed description by creating the
         exportLabel: String,                  - optional 
         sortable: Boolean,                    - optional
         hidden: Boolean,                      - optional
-        externalLink: Boolean,                - optional
-        internalLink: Boolean,                - optional
+        externalLink: {                       - optional
+          url: String,                          - required
+          linkText: String,                     - required
+        },
+        internalLink: {                       - optional
+          url: String,                          - required
+          linkText: String,                     - required
+        },
         chopFieldName: String                 - optional
       },
       {...}
@@ -32,11 +38,27 @@ For every key in the JSON object, provide a detailed description by creating the
 
   <b>sortable</b>: If true, the table will allow selecting this column to sort the content rows.
 
-  <b>externalLink</b>: If true, column will be a hyperlink to external link. 
-
-  <b>internalLink</b>: If true, column will be a hyperlink to internal link, ex. (Disease, Target, Drug, or Evidence) page. 
+  <b>externalLink</b>: If present, column will be a hyperlink to external link.<sup style="color: red">**</sup> <br>
+ 
+  <b>internalLink</b>: If present, column will be a hyperlink to internal link, ex. (Disease, Target, Drug, or Evidence) page.<sup style="color: red">**</sup>
 
   <b>chopFieldName</b>: The ID name used to describe this column from CHoP source file.
+
+  <sup style="color: red">**</sup> If `internalLink` or `externalLink` are present in a column, `url` and `linkText` are required to be provided. Following the format below, Link desination and text can be configurable <br> 
+  &nbsp;&nbsp;&nbsp;&nbsp;<b>url</b>: Link's destination <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;<b>linkText</b>: Link text that will be visible to the reader. <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;<b style="color: orange">Note: </b> When inserting non static value, the `id` associated with the value need to be provided inside `${}`. An Example of creating PedcBio PedOT mutations plot URL:
+  ```json
+    {
+      "id": "pedcbioPedotMutationsPlotURL",
+      ...
+      "externalLink": {
+        "url": "${pedcbioPedotMutationsPlotURL}",
+        "linkText": "mutations"
+      },
+      ...
+    }
+  ```
 </p>
 
 <br><hr><br>
