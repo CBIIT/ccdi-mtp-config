@@ -4,8 +4,8 @@
     "label": "Gene symbol",
     "sortable": false,
     "internalLink": {
-      "url": "/change-log/${geneSymbol}",
-      "linkText": "${Disease}"
+      "url": "/target/${targetFromSourceId}",
+      "linkText": "${geneSymbol}"
     },
     "chopFieldName": "Gene_symbol"
   },
@@ -26,7 +26,7 @@
     "label": "Disease",
     "sortable": true,
     "internalLink": {
-      "url": "brokenLink",
+      "url": "/disease/${diseaseFromSourceMappedId}",
       "linkText": "${Disease}"
     },
     "chopFieldName": "Disease"
