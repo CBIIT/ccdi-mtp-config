@@ -5,7 +5,7 @@
     "sortable": false,
     "internalLink": {
       "url": "/target/${targetFromSourceId}",
-      "linkText": "$internal link"
+      "linkText": "${geneSymbol}internal link"
     },
     "chopFieldName": "Gene_symbol"
   },
