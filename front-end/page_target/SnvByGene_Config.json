@@ -10,7 +10,7 @@
     "chopFieldName": "Gene_symbol"
   },
   {
-    "id": "test",
+    "id": "PMTL",
     "label": "PMTL",
     "sortable": false,
     "chopFieldName": "PMTL"
