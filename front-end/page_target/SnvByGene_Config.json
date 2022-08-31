@@ -23,7 +23,7 @@
   },
   {
     "id": "test",
-    "label": "test",
+    "label": "Disease",
     "sortable": true,
     "internalLink": {
       "url": "/disease/${diseaseFromSourceMappedId}",
