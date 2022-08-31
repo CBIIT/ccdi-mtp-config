@@ -28,7 +28,7 @@
   },
   {
     "id": "test",
-    "label": "PMTL",
+    "label": "test",
     "sortable": false,
     "chopFieldName": "PMTL"
   },
