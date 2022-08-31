@@ -35,8 +35,8 @@
     "chopFieldName": "Dataset"
   },
   {
-    "id": "test",
-    "label": "test",
+    "id": "Disease",
+    "label": "Disease",
     "sortable": true,
     "internalLink": {
       "url": "/disease/${diseaseFromSourceMappedId}",
