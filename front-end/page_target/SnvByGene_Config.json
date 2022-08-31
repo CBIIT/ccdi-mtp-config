@@ -45,7 +45,7 @@
     "chopFieldName": "MONDO"
   },
   {
-    "id": "geneFullName",
+    "id": "geneFullNametest",
     "label": "Gene full name",
     "sortable": false,
     "chopFieldName": "Gene_full_name"
