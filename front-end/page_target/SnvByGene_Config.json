@@ -1,6 +1,6 @@
 [
   {
-    "id": "geneSymbol",
+    "id": "geneSymbolTest",
     "label": "Gene symbol",
     "sortable": false,
     "internalLink": {
@@ -46,86 +46,86 @@
   },
   {
     "id": "geneFullNametest",
-    "label": "Gene full name test",
+    "label": "Gene full name",
     "sortable": false,
     "chopFieldName": "Gene_full_name"
   },
   {
-    "id": "geneType",
+    "id": "geneTypeTest",
     "label": "Gene type",
     "sortable": false,
     "chopFieldName": "Gene_type"
   },
   {
-    "id": "proteinRefseqId",
+    "id": "proteinRefseqIdTest",
     "label": "Protein RefSeq ID",
     "sortable": false,
     "chopFieldName": "Protein_RefSeq_ID"
   },
   {
-    "id": "targetFromSourceId",
+    "id": "targetFromSourceIdTest",
     "label": "Gene Ensembl ID",
     "exportLabel": "geneEnsemblId",
     "hidden": true,
     "chopFieldName": "targetFromSourceId"
   },
   {
-    "id": "proteinEnsemblId",
+    "id": "proteinEnsemblIdTest",
     "label": "Protein Ensembl Id",
     "hidden": true,
     "chopFieldName": "Protein_Ensembl_ID"
   },
   {
-    "id": "totalMutationsOverPatientsInDataset",
+    "id": "totalMutationsOverPatientsInDatasetTest",
     "label": "Total mutations / Subjects in dataset",
     "exportLabel": "totalMutationsOverSubjectsInDataset",
     "sortable": true,
     "chopFieldName": "Total_mutations_Over_Patients_in_dataset"
   },
   {
-    "id": "frequencyInOverallDataset",
+    "id": "frequencyInOverallDatasetTest",
     "label": "Frequency in overall dataset",
     "sortable": true,
     "chopFieldName": "Frequency_in_overall_dataset"
   },
   {
-    "id": "totalPrimaryTumorsMutatedOverPrimaryTumorsInDataset",
+    "id": "totalPrimaryTumorsMutatedOverPrimaryTumorsInDatasetTest",
     "label": "Total primary tumors mutated / Primary tumors in dataset",
     "sortable": true,
     "chopFieldName": "Total_primary_tumors_mutated_Over_Primary_tumors_in_dataset"
   },
   {
-    "id": "frequencyInPrimaryTumors",
+    "id": "frequencyInPrimaryTumorsTest",
     "label": "Frequency in primary tumors",
     "sortable": true,
     "chopFieldName": "Frequency_in_primary_tumors"
   },
   {
-    "id": "totalRelapseTumorsMutatedOverRelapseTumorsInDataset",
+    "id": "totalRelapseTumorsMutatedOverRelapseTumorsInDatasetTest",
     "label": "Total relapse tumors mutated / Relapse tumors in dataset",
     "sortable": true,
     "chopFieldName": "Total_relapse_tumors_mutated_Over_Relapse_tumors_in_dataset"
   },
   {
-    "id": "frequencyInRelapseTumors",
+    "id": "frequencyInRelapseTumorsTest",
     "label": "Frequency in relapse tumors",
     "sortable": true,
     "chopFieldName": "Frequency_in_relapse_tumors"
   },
   {
-    "id": "OncoKBCancerGene",
+    "id": "OncoKBCancerGeneTest",
     "label": "OncoKB cancer gene",
     "sortable": false,
     "chopFieldName": "OncoKB_cancer_gene"
   },
   {
-    "id": "OncoKBOncogeneTSG",
+    "id": "OncoKBOncogeneTSGTest",
     "label": "OncoKB Oncogene|TSG",
     "sortable": false,
     "chopFieldName": "OncoKB_oncogene_TSG"
   },
   {
-    "id": "pedcbioPedotOncoprintPlotURL",
+    "id": "pedcbioPedotOncoprintPlotURLTest",
     "label": "PedcBio PedOT oncoprint plot",
     "exportLabel": "pedcbioPedotOncoprintPlot",
     "externalLink": {
@@ -135,7 +135,7 @@
     "chopFieldName": "PedcBio_PedOT_oncoprint_plot_URL"
   },
   {
-    "id": "pedcbioPedotMutationsPlotURL",
+    "id": "pedcbioPedotMutationsPlotURLTest",
     "label": "PedcBio PedOT mutation plot",
     "exportLabel": "pedcbioPedotMutationsPlot",
     "externalLink": {
