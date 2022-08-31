@@ -1,7 +1,7 @@
 [
   {
     "id": "geneSymbol",
-    "label": "Gene symbol",
+    "label": "Testing",
     "sortable": false,
     "internalLink": {
       "url": "/target/${targetFromSourceId}",
@@ -17,13 +17,6 @@
     "chopFieldName": "targetFromSourceId"
   },
   {
-    "id": "variantType",
-    "label": "Variant type",
-    "exportLabel": "variantType",
-    "sortable": true,
-    "chopFieldName": "Variant_type"
-  },
-  {
     "id": "variantCategory",
     "label": "Variant category",
     "exportLabel": "variantCategory",
@@ -31,9 +24,15 @@
     "chopFieldName": "Variant_category"
   },
   {
+    "id": "variantType",
+    "label": "Variant type",
+    "exportLabel": "variantType",
+    "chopFieldName": "Variant_type"
+  },
+  {
     "id": "dataset",
     "label": "Dataset",
-    "exportLabel": "dataset",
+    "exportLabel": "datasetDataset",
     "sortable": true,
     "chopFieldName": "Dataset"
   },
