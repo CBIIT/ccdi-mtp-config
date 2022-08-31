@@ -33,7 +33,7 @@
     "chopFieldName": "PMTL"
   },
   {
-    "id": "test",
+    "id": "dataset",
     "label": "Dataset",
     "sortable": true,
     "chopFieldName": "Dataset"
