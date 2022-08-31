@@ -22,7 +22,7 @@
     "chopFieldName": "Dataset"
   },
   {
-    "id": "Disease",
+    "id": "test",
     "label": "Disease",
     "sortable": true,
     "internalLink": {
