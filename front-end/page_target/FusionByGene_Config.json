@@ -27,7 +27,7 @@
     "chopFieldName": "Disease"
   },
   {
-    "id": "test",
+    "id": "PMTL",
     "label": "test",
     "sortable": false,
     "chopFieldName": "PMTL"
