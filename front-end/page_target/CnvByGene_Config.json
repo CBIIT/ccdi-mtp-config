@@ -1,11 +1,11 @@
 [
   {
-    "id": "geneSymbol",
-    "label": "Gene symbol",
+    "id": "geneSymboltest",
+    "label": "Gene symbol test",
     "sortable": false,
     "internalLink": {
       "url": "/target/${targetFromSourceId}",
-      "linkText": "${geneSymbol}"
+      "linkText": "${geneSymboltest}"
     },
     "chopFieldName": "Gene_symbol"
   },
@@ -13,7 +13,7 @@
     "id": "targetFromSourceId",
     "label": "Gene Ensembl ID",
     "exportLabel": "geneEnsemblId",
-    "hidden": true,
+    "hidden": false,
     "chopFieldName": "targetFromSourceId"
   },
   {
@@ -31,7 +31,7 @@
   {
     "id": "dataset",
     "label": "Dataset",
-    "sortable": true,
+    "sortable": false,
     "chopFieldName": "Dataset"
   },
   {
@@ -88,12 +88,6 @@
     "chopFieldName": "Gene_full_name"
   },
   {
-    "id": "PMTL",
-    "label": "PMTL",
-    "sortable": false,
-    "chopFieldName": "PMTL"
-  },
-  {
     "id": "OncoKBCancerGene",
     "label": "OncoKB cancer gene",
     "sortable": false,
@@ -102,7 +96,7 @@
   {
     "id": "OncoKBOncogeneTSG",
     "label": "OncoKB Oncogene|TSG",
-    "sortable": false,
+    "sortable": true,
     "chopFieldName": "OncoKB_oncogene_TSG"
   },
   {
@@ -117,5 +111,11 @@
     "label": "MONDO",
     "hidden": true,
     "chopFieldName": "MONDO"
+  },
+    {
+    "id": "PMTL",
+    "label": "PMTL",
+    "sortable": false,
+    "chopFieldName": "PMTL"
   }
 ]
