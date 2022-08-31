@@ -1,12 +1,12 @@
 [
   {
     "id": "x_labelTest",
-    "exportLabel": "xLabel",
+    "exportLabel": "xLabelTest",
     "chopFieldName": "x_label"
   },
   {
-    "id": "Gene_Ensembl_ID",
-    "exportLabel": "geneEnsemblId",
+    "id": "Gene_Ensembl_IDTest",
+    "exportLabel": "geneEnsemblIdTest",
     "chopFieldName": "Gene_Ensembl_ID"
   },
   {
