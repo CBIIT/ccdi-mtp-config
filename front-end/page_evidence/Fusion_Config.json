@@ -1,7 +1,7 @@
 [
   {
-    "id": "fusionName",
-    "label": "Fusion Name",
+    "id": "fusionNameTest",
+    "label": "Fusion NameTest",
     "sortable": true,
     "chopFieldName": "FusionName"
   },
@@ -12,14 +12,14 @@
     "chopFieldName": "Fusion_Type"
   },
   {
-    "id": "geneSymbol",
+    "id": "geneSymbolTest",
     "label": "Gene symbol",
     "sortable": false,
     "internalLink": true,
     "chopFieldName": "Gene_symbol"
   },
   {
-    "id": "genePosition",
+    "id": "genePositionTest",
     "label": "Gene Position",
     "sortable": true,
     "chopFieldName": "Gene_Position"
@@ -33,7 +33,7 @@
   },
   {
     "id": "breakpointLocation",
-    "label": "Breakpoint location",
+    "label": "Breakpoint location - Test",
     "sortable": true,
     "chopFieldName": "BreakpointLocation"
   },
