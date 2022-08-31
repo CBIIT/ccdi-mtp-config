@@ -1,6 +1,6 @@
 [
   {
-    "id": "geneSymbolTest",
+    "id": "geneSymbol",
     "label": "Gene symbol",
     "sortable": false,
     "internalLink": {
@@ -10,20 +10,20 @@
     "chopFieldName": "Gene_symbol"
   },
   {
-    "id": "PMTLTest",
+    "id": "PMTL",
     "label": "PMTL",
     "sortable": false,
     "chopFieldName": "PMTL"
   },
   {
-    "id": "datasetTest",
+    "id": "dataset",
     "label": "Dataset",
     "sortable": true,
     "chopFieldName": "Dataset"
   },
   {
-    "id": "DiseaseTest",
-    "label": "DiseaseTest",
+    "id": "Disease",
+    "label": "Disease",
     "sortable": true,
     "internalLink": {
       "url": "/disease/${diseaseFromSourceMappedId}",
@@ -45,87 +45,87 @@
     "chopFieldName": "MONDO"
   },
   {
-    "id": "geneFullNametest",
+    "id": "geneFullName",
     "label": "Gene full name",
     "sortable": false,
     "chopFieldName": "Gene_full_name"
   },
   {
-    "id": "geneTypeTest",
+    "id": "geneType",
     "label": "Gene type",
     "sortable": false,
     "chopFieldName": "Gene_type"
   },
   {
-    "id": "proteinRefseqIdTest",
+    "id": "proteinRefseqId",
     "label": "Protein RefSeq ID",
     "sortable": false,
     "chopFieldName": "Protein_RefSeq_ID"
   },
   {
-    "id": "targetFromSourceIdTest",
+    "id": "targetFromSourceId",
     "label": "Gene Ensembl ID",
     "exportLabel": "geneEnsemblId",
     "hidden": true,
     "chopFieldName": "targetFromSourceId"
   },
   {
-    "id": "proteinEnsemblIdTest",
+    "id": "proteinEnsemblId",
     "label": "Protein Ensembl Id",
     "hidden": true,
     "chopFieldName": "Protein_Ensembl_ID"
   },
   {
-    "id": "totalMutationsOverPatientsInDatasetTest",
+    "id": "totalMutationsOverPatientsInDataset",
     "label": "Total mutations / Subjects in dataset",
     "exportLabel": "totalMutationsOverSubjectsInDataset",
     "sortable": true,
     "chopFieldName": "Total_mutations_Over_Patients_in_dataset"
   },
   {
-    "id": "frequencyInOverallDatasetTest",
+    "id": "frequencyInOverallDataset",
     "label": "Frequency in overall dataset",
     "sortable": true,
     "chopFieldName": "Frequency_in_overall_dataset"
   },
   {
-    "id": "totalPrimaryTumorsMutatedOverPrimaryTumorsInDatasetTest",
+    "id": "totalPrimaryTumorsMutatedOverPrimaryTumorsInDataset",
     "label": "Total primary tumors mutated / Primary tumors in dataset",
     "sortable": true,
     "chopFieldName": "Total_primary_tumors_mutated_Over_Primary_tumors_in_dataset"
   },
   {
-    "id": "frequencyInPrimaryTumorsTest",
+    "id": "frequencyInPrimaryTumors",
     "label": "Frequency in primary tumors",
     "sortable": true,
     "chopFieldName": "Frequency_in_primary_tumors"
   },
   {
-    "id": "totalRelapseTumorsMutatedOverRelapseTumorsInDatasetTest",
+    "id": "totalRelapseTumorsMutatedOverRelapseTumorsInDataset",
     "label": "Total relapse tumors mutated / Relapse tumors in dataset",
     "sortable": true,
     "chopFieldName": "Total_relapse_tumors_mutated_Over_Relapse_tumors_in_dataset"
   },
   {
-    "id": "frequencyInRelapseTumorsTest",
+    "id": "frequencyInRelapseTumors",
     "label": "Frequency in relapse tumors",
     "sortable": true,
     "chopFieldName": "Frequency_in_relapse_tumors"
   },
   {
-    "id": "OncoKBCancerGeneTest",
+    "id": "OncoKBCancerGene",
     "label": "OncoKB cancer gene",
     "sortable": false,
     "chopFieldName": "OncoKB_cancer_gene"
   },
   {
-    "id": "OncoKBOncogeneTSGTest",
+    "id": "OncoKBOncogeneTSG",
     "label": "OncoKB Oncogene|TSG",
     "sortable": false,
     "chopFieldName": "OncoKB_oncogene_TSG"
   },
   {
-    "id": "pedcbioPedotOncoprintPlotURLTest",
+    "id": "pedcbioPedotOncoprintPlotURL",
     "label": "PedcBio PedOT oncoprint plot",
     "exportLabel": "pedcbioPedotOncoprintPlot",
     "externalLink": {
@@ -135,7 +135,7 @@
     "chopFieldName": "PedcBio_PedOT_oncoprint_plot_URL"
   },
   {
-    "id": "pedcbioPedotMutationsPlotURLTest",
+    "id": "pedcbioPedotMutationsPlotURL",
     "label": "PedcBio PedOT mutation plot",
     "exportLabel": "pedcbioPedotMutationsPlot",
     "externalLink": {
