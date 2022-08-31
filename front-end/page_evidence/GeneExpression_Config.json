@@ -1,6 +1,6 @@
 [
   {
-    "id": "x_label",
+    "id": "x_labelTest",
     "exportLabel": "xLabel",
     "chopFieldName": "x_label"
   },
