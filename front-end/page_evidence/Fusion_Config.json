@@ -1,18 +1,18 @@
 [
   {
-    "id": "fusionNameTest",
-    "label": "Fusion NameTest",
+    "id": "fusionName",
+    "label": "Fusion Name",
     "sortable": true,
     "chopFieldName": "FusionName"
   },
   {
-    "id": "fusionTypeTest",
+    "id": "fusionType",
     "label": "Fusion Type",
     "sortable": true,
     "chopFieldName": "Fusion_Type"
   },
   {
-    "id": "geneSymbolTest",
+    "id": "geneSymbol",
     "label": "Gene symbol",
     "sortable": false,
     "internalLink": {
@@ -23,7 +23,7 @@
   },
   {
     "id": "genePosition",
-    "label": "Gene PositionTest",
+    "label": "Gene Position",
     "sortable": true,
     "chopFieldName": "Gene_Position"
   },
