@@ -46,7 +46,7 @@
   },
   {
     "id": "geneFullNametest",
-    "label": "Gene full name",
+    "label": "Gene full name test",
     "sortable": false,
     "chopFieldName": "Gene_full_name"
   },
