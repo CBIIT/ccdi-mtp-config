@@ -5,7 +5,7 @@
     "sortable": false,
     "internalLink": {
       "url": "/target/${targetFromSourceId}",
-      "linkText": "${geneSymboltest}"
+      "linkText": "${geneSymbol}test"
     },
     "chopFieldName": "Gene_symbol"
   },
@@ -49,6 +49,7 @@
     "label": "Total alterations / Subjects in dataset",
     "exportLabel": "totalAlterationsOverSubjectsInDataset",
     "sortable": true,
+     "hidden": true,
     "chopFieldName": "Total_alterations_over_Patients_in_dataset"
   },
   {
