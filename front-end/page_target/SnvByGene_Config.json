@@ -10,13 +10,13 @@
     "chopFieldName": "Gene_symbol"
   },
   {
-    "id": "PMTL",
+    "id": "PMTLTest",
     "label": "PMTL",
     "sortable": false,
     "chopFieldName": "PMTL"
   },
   {
-    "id": "dataset",
+    "id": "datasetTest",
     "label": "Dataset",
     "sortable": true,
     "chopFieldName": "Dataset"
