@@ -19,13 +19,14 @@
   {
     "id": "variantType",
     "label": "Variant type",
-    "sortable": true,
+    "sortable": false,
     "chopFieldName": "Variant_type"
   },
   {
     "id": "variantCategory",
     "label": "Variant category",
     "sortable": true,
+     "hidden": true,
     "chopFieldName": "Variant_category"
   },
   {
@@ -35,8 +36,8 @@
     "chopFieldName": "Dataset"
   },
   {
-    "id": "Disease",
-    "label": "Disease",
+    "id": "test",
+    "label": "test",
     "sortable": true,
     "internalLink": {
       "url": "/disease/${diseaseFromSourceMappedId}",
