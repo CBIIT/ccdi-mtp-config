@@ -35,7 +35,7 @@
     "chopFieldName": "Dataset"
   },
   {
-    "id": "disease",
+    "id": "Disease",
     "label": "Disease",
     "sortable": true,
     "internalLink": {
@@ -87,7 +87,7 @@
     "sortable": false,
     "chopFieldName": "Gene_full_name"
   },
-    {
+  {
     "id": "PMTL",
     "label": "PMTL",
     "sortable": false,
@@ -102,7 +102,7 @@
   {
     "id": "OncoKBOncogeneTSG",
     "label": "OncoKB Oncogene|TSG",
-    "sortable": true,
+    "sortable": false,
     "chopFieldName": "OncoKB_oncogene_TSG"
   },
   {
