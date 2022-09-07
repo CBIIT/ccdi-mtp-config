@@ -1,7 +1,7 @@
 [
   {
     "id": "geneSymbol",
-    "label": "Testing",
+    "label": "Gene symbol",
     "sortable": false,
     "internalLink": {
       "url": "/target/${targetFromSourceId}",
