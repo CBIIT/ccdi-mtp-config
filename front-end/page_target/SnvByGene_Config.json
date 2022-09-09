@@ -132,6 +132,7 @@
       "url": "${pedcbioPedotOncoprintPlotURL}",
       "linkText": "oncoprint"
     },
+    "exportValue": "oncoprint",
     "chopFieldName": "PedcBio_PedOT_oncoprint_plot_URL"
   },
   {
@@ -142,6 +143,7 @@
       "url": "${pedcbioPedotMutationsPlotURL}",
       "linkText": "mutations"
     },
+    "exportValue": "mutations",
     "chopFieldName": "PedcBio_PedOT_mutations_plot_URL"
   }
 ]
