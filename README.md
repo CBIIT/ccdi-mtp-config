@@ -30,39 +30,37 @@ For every key in the JSON object, provide a detailed description by creating the
     ]
 </p>
 <h1>Overview:</h1>
-<p>
-  Every Column object must be provided with the `id` property. The `id` must match with the fields defined from MTP GraphQl schema and will be used to extract the value. That value will be used for comparison, file exporting, sorting and cell rendering.
-  Alternatively, the value used by those features can be overridden by the following properties:
+
+Every Column object must be provided with the `id` property. The `id` must match with the fields defined from MTP GraphQl schema and will be used to extract the value. That value will be used for comparison, file exporting, sorting and cell rendering. Alternatively, the value used by those features can be overridden by the following properties:
     <ul>
       <li>String exported to a file by the downloader: `exportValue`.</li>
       <li>Link rendered in the table cell: `internalLink` & `externalLink`.</li>
     </ul>
-  If any of those fields are present, they will take priority over id.
-</p><br>
+If any of those fields are present, they will take priority over `id`.
 
 <h1>Definition:</h1>
-<p>
-  <b>id</b>: The ID name used to describe this column from FNL API.
 
-  <b>label</b>: Column display name that will appear in the table as the column header. If label is not present, a capitalized and spaced version of id will be used.
+`id`: The ID name used to describe this column from FNL API.
 
-  <b>exportLabel</b>: Column label shown on the exported file header. If not present, camelCase value from id field will be used. Camel case will also be applied to exportLabel value.
+`label`: Column display name that will appear in the table as the column header. If label is not present, a capitalized and spaced version of id will be used.
 
-  <b>hidden</b>: If true, column will not be shown in the table. Downloaded data will still include columns that are hidden.
+`exportLabel`: Column label shown on the exported file header. If not present, camelCase value from id field will be used. Camel case will also be applied to exportLabel value.
 
-  <b>sortable</b>: If true, the table will allow selecting this column to sort the content rows.
+`hidden`: If true, column will not be shown in the table. Downloaded data will still include columns that are hidden.
 
-  <b>exportValue</b>: If present, the value will be used for exporting this column. Otherwise, it will use the data associated with column id. If set to false, the column will not be present in the export.
+`sortable`: If true, the table will allow selecting this column to sort the content rows.
 
-  <b>externalLink</b>: If present, column will be a hyperlink to external link.<sup>`**`</sup>
+`exportValue`: If present, the value will be used for exporting this column. Otherwise, it will use the data associated with column id. If set to false, the column will not be present in the export.
+
+`externalLink`: If present, column will be a hyperlink to external link.<sup>`**`</sup>
  
-  <b>internalLink</b>: If present, column will be a hyperlink to internal link, ex. (Disease, Target, Drug, or Evidence) page.<sup>`**`</sup>
+`internalLink`: If present, column will be a hyperlink to internal link, ex. (Disease, Target, Drug, or Evidence) page.<sup>`**`</sup>
 
-  <b>chopFieldName</b>: The ID name used to describe this column from CHoP source file.
+`chopFieldName`: The ID name used to describe this column from CHoP source file.
 
   <sup>`**`</sup> If `internalLink` or `externalLink` are present in a column, `url` and `linkText` are required to be provided. Following the format below, Link desination and text can be configurable <br> 
-  &nbsp;&nbsp;&nbsp;&nbsp;<b>url</b>: Link's destination <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;<b>linkText</b>: Link text that will be visible to the reader.
+  &nbsp;&nbsp;&nbsp;&nbsp;`url`: Link's destination <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;`linkText`: Link text that will be visible to the reader.
   
  <b>(Note)</b> When inserting non static value, the `id` associated with the value need to be provided inside `${}`. An Example of creating PedcBio PedOT mutations plot URL:
   ```
@@ -76,7 +74,6 @@ For every key in the JSON object, provide a detailed description by creating the
       ...
     }
   ```
-</p>
 
 <br><hr><br>
 
