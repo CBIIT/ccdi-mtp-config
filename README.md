@@ -42,15 +42,15 @@ If any of those fields are present, they will take priority over `id`.
 
 `id`: The ID name used to describe this column from FNL API.
 
-`label`: Column display name that will appear in the table as the column header. If label is not present, a capitalized and spaced version of id will be used.
+`label`: Column display name that will appear in the table as the column header. If `label` is not present, a capitalized and spaced version of `id` will be used.
 
-`exportLabel`: Column label shown on the exported file header. If not present, camelCase value from id field will be used. Camel case will also be applied to exportLabel value.
+`exportLabel`: Column label shown on the exported file header. If not present, camelCase value from `id` field will be used.
 
-`hidden`: If true, column will not be shown in the table. Downloaded data will still include columns that are hidden.
+`hidden`: If true, column will not be shown in the table. To hide column in the exported file refer to `exportValue`
 
 `sortable`: If true, the table will allow selecting this column to sort the content rows.
 
-`exportValue`: If present, the value will be used for exporting this column. Otherwise, it will use the data associated with column id. If set to false, the column will not be present in the export.
+`exportValue`: If present, the value will be used for exporting this column. Otherwise, it will use the data associated with column `id`. If set to false, the column will not be present in the export.
 
 `externalLink`: If present, column will be a hyperlink to external link.<sup>`**`</sup>
  
