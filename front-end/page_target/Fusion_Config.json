@@ -15,7 +15,10 @@
     "id": "geneSymbol",
     "label": "Gene symbol",
     "sortable": false,
-    "internalLink": true,
+    "internalLink": {
+      "url": "/target/${targetFromSourceId}",
+      "linkText": "${geneSymbol}"
+    },
     "chopFieldName": "Gene_symbol"
   },
   {
@@ -101,7 +104,10 @@
     "id": "Disease",
     "label": "Disease",
     "sortable": true,
-    "internalLink": true,
+    "internalLink": {
+      "url": "/disease/${diseaseFromSourceMappedId}",
+      "linkText": "${Disease}"
+    },
     "chopFieldName": "Disease"
   },
   {
