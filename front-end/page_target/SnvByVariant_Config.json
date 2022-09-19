@@ -118,11 +118,11 @@
     "chopFieldName": "Protein_Ensembl_ID"
   },
   {
-    "id": "totalMutationsOverPatientsInDataset",
+    "id": "totalMutationsOverSubjectsInDataset",
     "label": "Total mutations / Subjects in dataset",
     "exportLabel": "totalMutationsOverSubjectsInDataset",
     "sortable": true,
-    "chopFieldName": "Total_mutations_Over_Patients_in_dataset"
+    "chopFieldName": "Total_mutations_over_subjects_in_dataset"
   },
   {
     "id": "frequencyInOverallDataset",
@@ -134,7 +134,7 @@
     "id": "totalPrimaryTumorsMutatedOverPrimaryTumorsInDataset",
     "label": "Total primary tumors mutated / Primary tumors in dataset",
     "sortable": true,
-    "chopFieldName": "Total_primary_tumors_mutated_Over_Primary_tumors_in_dataset"
+    "chopFieldName": "Total_primary_tumors_mutated_over_primary_tumors_in_dataset"
   },
   {
     "id": "frequencyInPrimaryTumors",
@@ -146,7 +146,7 @@
     "id": "totalRelapseTumorsMutatedOverRelapseTumorsInDataset",
     "label": "Total relapse tumors mutated / Relapse tumors in dataset",
     "sortable": true,
-    "chopFieldName": "Total_relapse_tumors_mutated_Over_Relapse_tumors_in_dataset"
+    "chopFieldName": "Total_relapse_tumors_mutated_over_relapse_tumors_in_dataset"
   },
   {
     "id": "frequencyInRelapseTumors",

@@ -77,11 +77,11 @@
     "chopFieldName": "Frequency_in_primary_tumors"
   },
   {
-    "id": "totalRelapseTumorsAlteredOverRelapseTumorsInDataset",
+    "id": "totalRelapseTumorsMutatedOverRelapseTumorsInDataset",
     "label": "Total relapse tumors altered / Relapse tumors in dataset",
     "exportLabel": "totalRelapseTumorsAlteredOverRelapseTumorsInDataset",
     "sortable": true,
-    "chopFieldName": "Total_relapse_tumors_altered_over_Relapse_tumors_in_dataset"
+    "chopFieldName": "Total_relapse_tumors_mutated_over_relapse_tumors_in_dataset"
   },
   {
     "id": "frequencyInRelapseTumors",
