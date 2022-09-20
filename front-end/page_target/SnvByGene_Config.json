@@ -27,7 +27,7 @@
     "sortable": true,
     "internalLink": {
       "url": "/disease/${diseaseFromSourceMappedId}",
-      "linkText": "${Disease}"
+      "linkText": "${DiseaseTest}"
     },
     "chopFieldName": "Disease"
   },
