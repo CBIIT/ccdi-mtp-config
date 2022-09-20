@@ -19,7 +19,6 @@
     "id": "proteinChange",
     "label": "Protein change",
     "sortable": true,
-    "hidden": true,
     "chopFieldName": "Protein_change"
   },
   {
@@ -30,7 +29,7 @@
   },
   {
     "id": "dataset",
-    "label": "DatasetTEST",
+    "label": "Dataset",
     "sortable": true,
     "chopFieldName": "Dataset"
   },
