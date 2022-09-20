@@ -54,7 +54,7 @@
     "exportLabel": "totalAlterationsOverSubjectsInDataset",
     "sortable": true,
     "comparator": {
-      "id": "${frequencyInOverallDataset}",
+      "id": "frequencyInOverallDataset",
       "isNumeric": true
     },
     "chopFieldName": "Total_alterations_over_subjects_in_dataset"
@@ -75,7 +75,7 @@
     "exportLabel": "totalPrimaryTumorsAlteredOverPrimaryTumorsInDataset",
     "sortable": true,
     "comparator": {
-      "id": "${frequencyInPrimaryTumors}",
+      "id": "frequencyInPrimaryTumors",
       "isNumeric": true
     },
     "chopFieldName": "Total_primary_tumors_mutated_over_primary_tumors_in_dataset"
@@ -96,7 +96,7 @@
     "exportLabel": "totalRelapseTumorsAlteredOverRelapseTumorsInDataset",
     "sortable": true,
     "comparator": {
-      "id": "${frequencyInRelapseTumors}",
+      "id": "frequencyInRelapseTumors",
       "isNumeric": true
     },
     "chopFieldName": "Total_relapse_tumors_mutated_over_relapse_tumors_in_dataset"
