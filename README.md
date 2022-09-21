@@ -23,6 +23,10 @@ For every key in the JSON object, provide a detailed description by creating the
           url: String,                          - required
           linkText: String,                     - required
         },
+        comparator: {                         - optional
+          id: String                            - optional
+          isNumeric: Boolean                    - optional
+        }
         chopFieldName: String                 - optional
       },
       {...},
@@ -55,6 +59,11 @@ If any of those fields are present, they will take priority over `id`.
 `externalLink`: If present, column will be a hyperlink to external link.<sup>`**`</sup>
  
 `internalLink`: If present, column will be a hyperlink to internal link, ex. (Disease, Target, Drug, or Evidence) page.<sup>`**`</sup>
+
+`comparator`: By default, column data is sorted as string using the `id` associated with the column. If comparator is present,
+the table will use the provided property instead.
+ &nbsp;&nbsp;&nbsp;&nbsp;`id`: If provide, this `id` will be used for comparison instead of the current column `id`.
+ &nbsp;&nbsp;&nbsp;&nbsp;`isNumeric`: If true, data will be compared as numbers instead of string.
 
 `chopFieldName`: The ID name used to describe this column from CHoP source file.
 
