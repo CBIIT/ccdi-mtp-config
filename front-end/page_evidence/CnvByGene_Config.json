@@ -53,6 +53,10 @@
     "label": "Total alterations / Subjects in dataset",
     "exportLabel": "totalAlterationsOverSubjectsInDataset",
     "sortable": true,
+    "comparator": {
+      "id": "frequencyInOverallDataset",
+      "isNumeric": true
+    },
     "chopFieldName": "Total_alterations_over_subjects_in_dataset"
   },
   {
@@ -60,6 +64,9 @@
     "label": "Frequency in overall dataset",
     "exportLabel": "frequencyInOverallDataset",
     "sortable": true,
+    "comparator": {
+      "isNumeric": true
+    },
     "chopFieldName": "Frequency_in_overall_dataset"
   },
   {
@@ -67,6 +74,10 @@
     "label": "Total primary tumors altered / Primary tumors in dataset",
     "exportLabel": "totalPrimaryTumorsAlteredOverPrimaryTumorsInDataset",
     "sortable": true,
+    "comparator": {
+      "id": "frequencyInPrimaryTumors",
+      "isNumeric": true
+    },
     "chopFieldName": "Total_primary_tumors_mutated_over_primary_tumors_in_dataset"
   },
   {
@@ -74,6 +85,9 @@
     "label": "Frequency in primary tumors",
     "exportLabel": "frequencyInPrimaryTumors",
     "sortable": true,
+    "comparator": {
+      "isNumeric": true
+    },
     "chopFieldName": "Frequency_in_primary_tumors"
   },
   {
@@ -81,6 +95,10 @@
     "label": "Total relapse tumors altered / Relapse tumors in dataset",
     "exportLabel": "totalRelapseTumorsAlteredOverRelapseTumorsInDataset",
     "sortable": true,
+    "comparator": {
+      "id": "frequencyInRelapseTumors",
+      "isNumeric": true
+    },
     "chopFieldName": "Total_relapse_tumors_mutated_over_relapse_tumors_in_dataset"
   },
   {
@@ -88,6 +106,9 @@
     "label": "Frequency in relapse tumors",
     "exportLabel": "frequencyInRelapseTumors",
     "sortable": true,
+    "comparator": {
+      "isNumeric": true
+    },
     "chopFieldName": "Frequency_in_relapse_tumors"
   },
   {
