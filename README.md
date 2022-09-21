@@ -61,8 +61,8 @@ If any of those fields are present, they will take priority over `id`.
 `internalLink`: If present, column will be a hyperlink to internal link, ex. (Disease, Target, Drug, or Evidence) page.<sup>`**`</sup>
 
 `comparator`: By default, column data is sorted as string using the `id` associated with the column. If comparator is present,
-the table will use the provided property instead.
- &nbsp;&nbsp;&nbsp;&nbsp;`id`: If provide, this `id` will be used for comparison instead of the current column `id`.
+the table will use the provided property instead. <br>
+ &nbsp;&nbsp;&nbsp;&nbsp;`id`: If provide, this `id` will be used for comparison instead of the current column `id`. <br>
  &nbsp;&nbsp;&nbsp;&nbsp;`isNumeric`: If true, data will be compared as numbers instead of string.
 
 `chopFieldName`: The ID name used to describe this column from CHoP source file.
