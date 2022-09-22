@@ -1,8 +1,8 @@
 [
   {
-    "id": "x_labels",
-    "exportLabel": "xLabels",
-    "chopFieldName": "x_labels"
+    "id": "x_label",
+    "exportLabel": "xLabel",
+    "chopFieldName": "x_label"
   },
   {
     "id": "Gene_Ensembl_ID",
@@ -83,5 +83,15 @@
     "id": "TPM_max",
     "exportLabel": "tpmMax",
     "chopFieldName": "TPM_max"
+  },
+  {
+    "id": "specimen_descriptor_fill",
+    "exportLabel": "specimenDescriptorFill",
+    "chopFieldName": "specimen_descriptor_fill"
+  },
+  {
+    "id": "box_sample_count",
+    "exportLabel": "boxSampleCount",
+    "chopFieldName": "specimen_descriptor_fill"
   }
 ]
