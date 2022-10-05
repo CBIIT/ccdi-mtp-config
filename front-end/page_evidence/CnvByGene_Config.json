@@ -122,7 +122,6 @@
     "id": "PMTL",
     "label": "PMTL",
     "exportLabel": "pmtl",
-    "sortable": false,
     "chopFieldName": "PMTL",
     "hidden": true,
   },
