@@ -75,8 +75,8 @@ ENSG00000134058,CDK7,Relevant Molecular Target,Others,CDK7,Unchanged from FDA li
 ENSG00000136807,CDK9,Relevant Molecular Target,Others,CDK9,Unchanged from FDA lists
 ENSG00000149554,CHEK1,Relevant Molecular Target,Others,CHK1,Standardize symbol
 ENSG00000183765,CHEK2,Relevant Molecular Target,Gene Abnormality,"PARP | Gene Abnormality: BRCA1/2, PALB2, ATM, BRIP1, CHEK2, RAD51, etc.",Separate gene abnormalities
-Symbol_Not_Found,CLDN18.2 (alternative splice isoform) ,Non-Relevant Molecular Target,Automatic Waivers,CLDN18.2 Ialternative splice isoform),Cannot be mapped to gene-level target
-ENSG00000189143 ,CLDN4 ,Non-Relevant Molecular Target,Automatic Waivers,CLDN4,Unchanged from FDA lists
+Symbol_Not_Found,CLDN18.2 (alternative splice isoform),Non-Relevant Molecular Target,Automatic Waivers,CLDN18.2 (alternative splice isoform),Cannot be mapped to gene-level target
+ENSG00000189143,CLDN4,Non-Relevant Molecular Target,Automatic Waivers,CLDN4,Unchanged from FDA lists
 ENSG00000113851,CRBN,Relevant Molecular Target,Cell Lineage,Cereblon CBL (E3 Ubiquitine protein ligase),Standardize symbol
 ENSG00000005339,CREBBP,Relevant Molecular Target,Gene Abnormality,MLL | Gene Abnormality: MLL gene fusions (MLL-AF4/AF9/AF10/ENL/ELL/AF1p/AFX/FKHRL1/SEPT6/GAS7/EEN/CBP/PTD),Separate gene abnormalities and standardize symbol
 ENSG00000182578,CSF1R,Relevant Molecular Target,Gene Abnormality,CSF1R | Gene Abnormality: CSF1R gene fusions,Unchanged from FDA lists
@@ -146,13 +146,13 @@ ENSG00000165323,FAT3,Relevant Molecular Target,Others,"Hippo pathway (YAP, TAZ, 
 ENSG00000196159,FAT4,Relevant Molecular Target,Others,"Hippo pathway (YAP, TAZ, TEADs)",Unpack complex target
 ENSG00000109670,FBXW7,Relevant Molecular Target,Gene Abnormality,Gamma secretase | Gene Abnormality: NOTCH1 and FBXW7,Separate gene abnormalities
 ENSG00000109670,FBXW7,Relevant Molecular Target,Gene Abnormality,"NOTCH1 | Gene Abnormality: NOTCH1, FBXW7",Separate gene abnormalities
-ENSG00000143297  Curated,FCRL5,Non-Relevant Molecular Target,Automatic Waivers,FCRL5,Unchanged from FDA lists
+ENSG00000143297,FCRL5,Non-Relevant Molecular Target,Automatic Waivers,FCRL5,Unchanged from FDA lists
 ENSG00000163497,FEV,Relevant Molecular Target,Gene Abnormality,"ETS gene fusions | Gene Abnormality: ETS fusions (ERG, FLI1, ETV1)",Unpack complex target
 ENSG00000077782,FGFR1,Relevant Molecular Target,Gene Abnormality,FGFR | Gene Abnormality: FGFR and FGFR gene fusions,Unpack complex target
 ENSG00000066468,FGFR2,Relevant Molecular Target,Gene Abnormality,FGFR | Gene Abnormality: FGFR and FGFR gene fusions,Unpack complex target
 ENSG00000068078,FGFR3,Relevant Molecular Target,Gene Abnormality,FGFR | Gene Abnormality: FGFR and FGFR gene fusions,Unpack complex target
 ENSG00000160867,FGFR4,Relevant Molecular Target,Gene Abnormality,FGFR | Gene Abnormality: FGFR and FGFR gene fusions,Unpack complex target
-Symbol_Not_Found,FGFR2b (alternative splice isoform) ,Non-Relevant Molecular Target,Automatic Waivers,FGFR2b (alternative splice isoform) ,Cannot be mapped to gene-level target
+Symbol_Not_Found,FGFR2b (alternative splice isoform),Non-Relevant Molecular Target,Automatic Waivers,FGFR2b (alternative splice isoform),Cannot be mapped to gene-level target
 ENSG00000127418,FGFRL1,Relevant Molecular Target,Gene Abnormality,FGFR | Gene Abnormality: FGFR and FGFR gene fusions,Unpack complex target
 ENSG00000151702,FLI1,Relevant Molecular Target,Gene Abnormality,EWSR1-FLI1 | Gene Abnormality: EWSR1-FLI1,Separate gene fusion
 ENSG00000102755,FLT1,Relevant Molecular Target,Tumor Microenvironment and Immunotherapy,VEGFR,Unpack complex target
@@ -173,7 +173,7 @@ ENSG00000109163,GNRHR,Non-Relevant Molecular Target,Automatic Waivers,GNRHR,Unch
 ENSG00000213420,GPC2,Relevant Molecular Target,Cell Lineage,GPC2,Unchanged from FDA lists
 ENSG00000147257,GPC3,Relevant Molecular Target,Cell Lineage,GPC3,Unchanged from FDA lists
 ENSG00000136235,GPNMB,Relevant Molecular Target,Cell Lineage,GPNMB,Unchanged from FDA lists
-ENSG00000111291 ,GPRC5D,Non-Relevant Molecular Target,Automatic Waivers,GPRC5D,Unchanged from FDA lists
+ENSG00000111291,GPRC5D,Non-Relevant Molecular Target,Automatic Waivers,GPRC5D,Unchanged from FDA lists
 ENSG00000082701,GSK3B,Relevant Molecular Target,Others,GSK-3,Standardize symbol
 ENSG00000163041,H3-3A,Relevant Molecular Target,Gene Abnormality,Histone 3 G34R/V | Gene Abnormality: Histone 3 G34R/V,Unpack complex target
 ENSG00000163041,H3-3A,Relevant Molecular Target,Gene Abnormality,Histone 3 K27M | Gene Abnormality: Histone 3 K27M,Unpack complex target
@@ -389,7 +389,7 @@ ENSG00000173039,RELA,Relevant Molecular Target,Tumor Microenvironment and Immuno
 ENSG00000104856,RELB,Relevant Molecular Target,Gene Abnormality,NFkappaB | Gene Abnormality: RELA fusion,Unpack complex target
 ENSG00000165731,RET,Relevant Molecular Target,Gene Abnormality,RET | Gene Abnormality: RET,Unchanged from FDA lists
 ENSG00000164327,RICTOR,Relevant Molecular Target,Gene Abnormality,TORC1/2 as distinct from mTOR | Gene Abnormality: TORC1/2,Unpack complex target
-ENSG00000185483 ,ROR1,Relevant Molecular Target,Gene Abnormality,ROR1,Unchanged from FDA lists
+ENSG00000185483,ROR1,Relevant Molecular Target,Gene Abnormality,ROR1,Unchanged from FDA lists
 ENSG00000169071,ROR2,Relevant Molecular Target,Gene Abnormality,ROR2,Unchanged from FDA lists
 ENSG00000047936,ROS1,Relevant Molecular Target,Gene Abnormality,ROS1,Unchanged from FDA lists
 ENSG00000106399,RPA3,Relevant Molecular Target,Others,RPA3,Unchanged from FDA lists
@@ -432,7 +432,7 @@ ENSG00000101109,STK4,Relevant Molecular Target,Others,"Hippo pathway (YAP, TAZ, 
 ENSG00000178691,SUZ12,Relevant Molecular Target,Others,SUZ12,Unchanged from FDA lists
 ENSG00000165025,SYK,Relevant Molecular Target,Cell Lineage,SYK,Unchanged from FDA lists
 ENSG00000067715,SYT1,Relevant Molecular Target,Gene Abnormality,SYT-SSX | Gene Abnormality: SYT-SSX,Separate gene fusion and standardize symbol
-ENSG00000184292 ,TACSTD2,Non-Relevant Molecular Target,Automatic Waivers,TACSTD2,Unchanged from FDA lists
+ENSG00000184292,TACSTD2,Non-Relevant Molecular Target,Automatic Waivers,TACSTD2,Unchanged from FDA lists
 ENSG00000187079,TEAD1,Relevant Molecular Target,Others,"Hippo pathway (YAP, TAZ, TEADs)",Unpack complex target
 ENSG00000074219,TEAD2,Relevant Molecular Target,Others,"Hippo pathway (YAP, TAZ, TEADs)",Unpack complex target
 ENSG00000007866,TEAD3,Relevant Molecular Target,Others,"Hippo pathway (YAP, TAZ, TEADs)",Unpack complex target
