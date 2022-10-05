@@ -123,7 +123,7 @@
     "label": "PMTL",
     "exportLabel": "pmtl",
     "chopFieldName": "PMTL",
-    "hidden": true,
+    "sortable": false
   },
   {
     "id": "OncoKBCancerGene",
