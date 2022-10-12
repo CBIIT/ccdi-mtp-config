@@ -111,12 +111,6 @@
     "chopFieldName": "Disease"
   },
   {
-    "id": "PMTL",
-    "label": "PMTL",
-    "sortable": false,
-    "chopFieldName": "PMTL"
-  },
-  {
     "id": "dataset",
     "label": "Dataset",
     "sortable": true,
