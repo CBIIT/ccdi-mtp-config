@@ -223,7 +223,7 @@ ENSG00000142515,KLK3,Non-Relevant Molecular Target,Automatic Waivers,PSA/PSCA/PS
 ENSG00000118058,KMT2A,Relevant Molecular Target,Gene Abnormality,Menin | Gene Abnormality: MLL gene fusions,Separate gene abnormalities and standardize symbol
 ENSG00000005483,KMT2E,Relevant Molecular Target,Others,MLL5,Standardize symbol
 ENSG00000133703,KRAS,Relevant Molecular Target,Gene Abnormality,RAS | Gene Abnormality: RAS,Unpack complex target
-ENSG00000133703,KRAS G12C,Non-Relevant Molecular Target,Automatic Waivers,KRAS G12C,Unchanged from FDA lists
+Symbol_Not_Found,KRAS G12C,Non-Relevant Molecular Target,Automatic Waivers,KRAS G12C,Cannot be mapped to gene-level target
 ENSG00000089692,LAG3,Relevant Molecular Target,Tumor Microenvironment and Immunotherapy,LAG3,Unchanged from FDA lists
 ENSG00000131023,LATS1,Relevant Molecular Target,Others,"Hippo pathway (YAP, TAZ, TEADs)",Unpack complex target
 ENSG00000150457,LATS2,Relevant Molecular Target,Others,"Hippo pathway (YAP, TAZ, TEADs)",Unpack complex target
