@@ -119,13 +119,6 @@
     "chopFieldName": "Gene_full_name"
   },
   {
-    "id": "PMTL",
-    "label": "PMTL",
-    "exportLabel": "pmtl",
-    "sortable": false,
-    "chopFieldName": "PMTL"
-  },
-  {
     "id": "OncoKBCancerGene",
     "label": "OncoKB cancer gene",
     "exportLabel": "oncoKbCancerGene",
