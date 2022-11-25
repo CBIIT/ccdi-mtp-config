@@ -27,52 +27,67 @@
     "chopFieldName": "Disease"
   },
   {
-    "id": "PMTL",
-    "label": "PMTL",
-    "sortable": false,
-    "chopFieldName": "PMTL"
-  },
-  {
     "id": "dataset",
     "label": "Dataset",
     "sortable": true,
     "chopFieldName": "Dataset"
   },
   {
-    "id": "totalAlterationsOverNumberPatientsInDataset",
+    "id": "totalAlterationsOverSubjectsInDataset",
     "label": "Total alterations / Subjects in dataset",
     "exportLabel": "totalAlterationsOverSubjectsInDataset",
     "sortable": true,
-    "chopFieldName": "Total_alterations_Over_Patients_in_dataset"
+    "comparator": {
+      "id": "frequencyInOverallDataset",
+      "isNumeric": true
+    },
+    "chopFieldName": "Total_alterations_over_subjects_in_dataset"
   },
   {
     "id": "frequencyInOverallDataset",
     "label": "Frequency in overall dataset",
     "sortable": true,
+    "comparator": {
+      "isNumeric": true
+    },
     "chopFieldName": "Frequency_in_overall_dataset"
   },
   {
     "id": "totalPrimaryTumorsMutatedOverPrimaryTumorsInDataset",
     "label": "Total primary tumors mutated / Primary tumors in dataset",
     "sortable": true,
-    "chopFieldName": "Total_primary_tumors_mutated_Over_Primary_tumors_in_dataset"
+    "comparator": {
+      "id": "frequencyInPrimaryTumors",
+      "isNumeric": true
+    },
+    "chopFieldName": "Total_primary_tumors_mutated_over_primary_tumors_in_dataset"
   },
   {
     "id": "frequencyInPrimaryTumors",
     "label": "Frequency in primary tumors",
     "sortable": true,
+    "comparator": {
+      "isNumeric": true
+    },
     "chopFieldName": "Frequency_in_primary_tumors"
   },
   {
     "id": "totalRelapseTumorsMutatedOverRelapseTumorsInDataset",
     "label": "Total relapse tumors mutated / Relapse tumors in dataset",
     "sortable": true,
-    "chopFieldName": "Total_relapse_tumors_mutated_Over_Relapse_tumors_in_dataset"
+    "comparator": {
+      "id": "frequencyInRelapseTumors",
+      "isNumeric": true
+    },
+    "chopFieldName": "Total_relapse_tumors_mutated_over_relapse_tumors_in_dataset"
   },
   {
     "id": "frequencyInRelapseTumors",
     "label": "Frequency in relapse tumors",
     "sortable": true,
+    "comparator": {
+      "isNumeric": true
+    },
     "chopFieldName": "Frequency_in_relapse_tumors"
   },
   {

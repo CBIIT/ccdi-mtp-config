@@ -15,11 +15,6 @@
     "chopFieldName": "Gene_symbol"
   },
   {
-    "id": "PMTL",
-    "exportLabel": "pmtl",
-    "chopFieldName": "PMTL"
-  },
-  {
     "id": "Dataset",
     "exportLabel": "dataset",
     "chopFieldName": "Dataset"
