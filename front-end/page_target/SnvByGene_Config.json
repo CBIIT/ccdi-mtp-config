@@ -18,7 +18,7 @@
   {
     "id": "Disease",
     "label": "Disease",
-    "sortable": false,
+    "sortable": true,
     "internalLink": {
       "url": "/disease/${diseaseFromSourceMappedId}",
       "linkText": "${Disease}"
