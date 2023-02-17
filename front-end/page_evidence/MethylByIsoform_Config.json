@@ -1,0 +1,156 @@
+[
+  {
+    "id": "geneSymbol",
+    "label": "Gene symbol",
+    "sortable": false,
+    "internalLink": {
+      "url": "/target/${targetFromSourceId}",
+      "linkText": "${geneSymbol}"
+    },
+    "chopFieldName": "Gene_symbol"
+  },
+  {
+    "id": "targetFromSourceId",
+    "label": "Gene Ensembl ID",
+    "exportLabel": "geneEnsemblId",
+    "hidden": true,
+    "chopFieldName": "targetFromSourceId"
+  },
+  {
+    "id": "transcriptId",
+    "label": "Transcript ID",
+    "sortable": true,
+    "chopFieldName": "transcript_id"
+  },
+  {
+    "id": "geneFeature",
+    "label": "Gene Feature",
+    "sortable": true,
+    "chopFieldName": "Gene_Feature"
+  },
+  {
+    "id": "dataset",
+    "label": "Dataset",
+    "sortable": true,
+    "chopFieldName": "Dataset"
+  },
+  {
+    "id": "Disease",
+    "label": "Disease",
+    "sortable": true,
+    "internalLink": {
+      "url": "/disease/${diseaseFromSourceMappedId}",
+      "linkText": "${Disease}"
+    },
+    "chopFieldName": "Disease"
+  },
+  {
+    "id": "diseaseFromSourceMappedId",
+    "label": "EFO",
+    "exportLabel": "efo",
+    "hidden": true,
+    "chopFieldName": "diseaseFromSourceMappedId"
+  },
+  {
+    "id": "MONDO",
+    "label": "MONDO",
+    "hidden": true,
+    "chopFieldName": "MONDO"
+  },
+  {
+    "id": "medianTPM",
+    "label": "Median TPM",
+    "sortable": true,
+    "comparator": {
+      "isNumeric": true
+    },
+    "chopFieldName": "Median_TPM"
+  },
+  {
+    "id": "rnaCorrelation",
+    "label": "RNA Correlation",
+    "sortable": true,
+    "comparator": {
+      "isNumeric": true
+    },
+    "chopFieldName": "RNA_Correlation"
+  },
+  {
+    "id": "transcriptRepresentation",
+    "label": "Transcript Representation",
+    "sortable": true,
+    "comparator": {
+      "isNumeric": true
+    },
+    "chopFieldName": "Transcript_Representation"
+  },
+  {
+    "id": "probeID",
+    "label": "Probe ID",
+    "sortable": true,
+    "chopFieldName": "Probe_ID"
+  },
+  {
+    "id": "chromosome",
+    "label": "Chromosome",
+    "sortable": true,
+    "comparator": {
+      "isNumeric": true
+    },
+    "chopFieldName": "Chromosome"
+  },
+  {
+    "id": "location",
+    "label": "Location",
+    "sortable": true,
+    "comparator": {
+      "isNumeric": true
+    },
+    "chopFieldName": "Location"
+  },
+  {
+    "id": "betaQ1",
+    "label": "Beta-value Quantile 1",
+    "sortable": true,
+    "comparator": {
+      "isNumeric": true
+    },
+    "chopFieldName": "Beta_Q1"
+  },
+  {
+    "id": "betaQ2",
+    "label": "Beta-value Quantile 2",
+    "sortable": true,
+    "comparator": {
+      "isNumeric": true
+    },
+    "chopFieldName": "Beta_Q2"
+  },
+  {
+    "id": "betaMedian",
+    "label": "Beta-value Median",
+    "sortable": true,
+    "comparator": {
+      "isNumeric": true
+    },
+    "chopFieldName": "Beta_Median"
+  },
+  {
+    "id": "betaQ4",
+    "label": "Beta-value Quantile 4",
+    "sortable": true,
+    "comparator": {
+      "isNumeric": true
+    },
+    "chopFieldName": "Beta_Q4"
+  },
+  {
+    "id": "betaQ5",
+    "label": "Beta-value Quantile 5",
+    "sortable": true,
+    "comparator": {
+      "isNumeric": true
+    },
+    "chopFieldName": "Beta_Q5"
+  }
+]
