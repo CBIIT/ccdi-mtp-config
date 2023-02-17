@@ -52,15 +52,6 @@
     "chopFieldName": "MONDO"
   },
   {
-    "id": "medianTPM",
-    "label": "Median TPM",
-    "sortable": true,
-    "comparator": {
-      "isNumeric": true
-    },
-    "chopFieldName": "Median_TPM"
-  },
-  {
     "id": "rnaCorrelation",
     "label": "RNA Correlation",
     "sortable": true,
@@ -68,6 +59,15 @@
       "isNumeric": true
     },
     "chopFieldName": "RNA_Correlation"
+  },
+  {
+    "id": "medianTPM",
+    "label": "Median TPM",
+    "sortable": true,
+    "comparator": {
+      "isNumeric": true
+    },
+    "chopFieldName": "Median_TPM"
   },
   {
     "id": "probeID",
