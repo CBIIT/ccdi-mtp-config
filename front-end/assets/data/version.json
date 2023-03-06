@@ -6,8 +6,8 @@
   },
   "openTargetsPlatform": {
     "__comment": "Open Targets Platform",
-    "version": "22.04",
-    "releaseDate": "2022-04-28"
+    "version": "22.11",
+    "releaseDate": "2022-11-24"
   },
   "openPedCanAnalyses": {
     "__comment": "OpenPedCan Analyses",
