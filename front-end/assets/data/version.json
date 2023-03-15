@@ -1,8 +1,8 @@
 {
   "fdaPmtl": {
     "__comment": "FDA PMTL",
-    "version": "3.0",
-    "releaseDate": "2022-09-09"
+    "version": "3.1",
+    "releaseDate": "2023-03-10"
   },
   "openTargetsPlatform": {
     "__comment": "Open Targets Platform",
