@@ -16,6 +16,13 @@
     "chopFieldName": "Variant_ID_hg38"
   },
   {
+    "id": "variantHgvsId",
+    "label": "HGVSg ID",
+    "exportLabel": "hgvsgId",
+    "sortable": true,
+    "chopFieldName": "HGVSg"
+  },
+  {
     "id": "proteinChange",
     "label": "Protein change",
     "sortable": true,
