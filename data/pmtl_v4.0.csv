@@ -73,6 +73,7 @@ ENSG00000135446,CDK4,Relevant Molecular Target,Others,CDK4/6,Separate list
 ENSG00000105810,CDK6,Relevant Molecular Target,Others,CDK4/6,Separate list
 ENSG00000134058,CDK7,Relevant Molecular Target,Others,CDK7,Unchanged from FDA lists
 ENSG00000136807,CDK9,Relevant Molecular Target,Others,CDK9,Unchanged from FDA lists
+ENSG00000079385,CEACAMS,Non-Relevant Molecular Target,Automatic Waivers,CEACAMS,Unchanged from FDA lists
 ENSG00000149554,CHEK1,Relevant Molecular Target,Others,CHK1,Standardize symbol
 ENSG00000183765,CHEK2,Relevant Molecular Target,Gene Abnormality,"PARP | Gene Abnormality: BRCA1/2, PALB2, ATM, BRIP1, CHEK2, RAD51, etc.",Separate gene abnormalities
 Symbol_Not_Found,CLDN18.2 (alternative splice isoform),Non-Relevant Molecular Target,Automatic Waivers,CLDN18.2 (alternative splice isoform),Cannot be mapped to gene-level target
@@ -267,6 +268,7 @@ ENSG00000077150,NFKB2,Relevant Molecular Target,Gene Abnormality,NFkappaB | Gene
 ENSG00000148400,NOTCH1,Relevant Molecular Target,Gene Abnormality,"NOTCH1 | Gene Abnormality: NOTCH1, FBXW7",Unchanged from FDA lists
 ENSG00000136931,NR5A1,Relevant Molecular Target,Cell Lineage,NR5A1 (Steroidogenic factor-1),Standardize symbol
 ENSG00000213281,NRAS,Relevant Molecular Target,Gene Abnormality,RAS | Gene Abnormality: RAS,Unpack complex target
+ENSG00000157168,NRG1,Non-Relevant Molecular Target,Automatic Waivers,NRG1,Unchanged from FDA lists
 ENSG00000076685,NT5C2,Relevant Molecular Target,Gene Abnormality,NT5C2 | Gene Abnormality: NT5C2,Unchanged from FDA lists
 ENSG00000198400,NTRK1,Relevant Molecular Target,Gene Abnormality,NTRK | Gene Abnormality: NTRK gene fusions,Unpack complex target
 ENSG00000148053,NTRK2,Relevant Molecular Target,Gene Abnormality,NTRK | Gene Abnormality: NTRK gene fusions,Unpack complex target
