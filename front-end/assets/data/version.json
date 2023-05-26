@@ -11,7 +11,8 @@
   },
   "openPedCanAnalyses": {
     "__comment": "OpenPedCan Analyses",
-    "customVersion": "SomaticAlterations_v11.1; GeneExpression_v10"
+    "version": "12",
+    "releaseDate": "2023-04-30"
   },
   "oncoKBCancerGeneList": {
     "__comment": "OncoKB Cancer Gene List",
