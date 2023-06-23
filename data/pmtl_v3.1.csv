@@ -66,7 +66,7 @@ ENSG00000169442,CD52,Relevant Molecular Target,Tumor Microenvironment and Immuno
 ENSG00000173762,CD7,Relevant Molecular Target,Cell Lineage,CD7,Unchanged from FDA lists
 ENSG00000125726,CD70,Relevant Molecular Target,Cell Lineage,CD70,Unchanged from FDA lists
 ENSG00000007312,CD79B,Relevant Molecular Target,Cell Lineage,CD79b,Unchanged from FDA lists
-ENSG00000070669,CDC7,Relevant Molecular Target,Cell Lineage,CDC7,Unchanged from FDA lists
+ENSG00000097046,CDC7,Relevant Molecular Target,Cell Lineage,CDC7,Unchanged from FDA lists
 ENSG00000167258,CDK12,Relevant Molecular Target,Gene Abnormality,CDK12 | Gene Abnormality: EWSR1-FLI1,Unchanged from FDA lists
 ENSG00000123374,CDK2,Relevant Molecular Target,Others,CDK2,Unchanged from FDA lists
 ENSG00000135446,CDK4,Relevant Molecular Target,Others,CDK4/6,Separate list
@@ -99,7 +99,7 @@ ENSG00000121966,CXCR4,Relevant Molecular Target,Tumor Microenvironment and Immun
 ENSG00000166341,DCHS1,Relevant Molecular Target,Others,"Hippo pathway (YAP, TAZ, TEADs)",Unpack complex target
 ENSG00000197410,DCHS2,Relevant Molecular Target,Others,"Hippo pathway (YAP, TAZ, TEADs)",Unpack complex target
 ENSG00000215301,DDX3X,Relevant Molecular Target,Gene Abnormality,DDX3X | Gene Abnormality: DDX3X,Unchanged from FDA lists
-ENSG00000107201,DDX58,Relevant Molecular Target,Tumor Microenvironment and Immunotherapy,RIG-I,Standardize symbol
+ENSG00000107201,RIGI,Relevant Molecular Target,Tumor Microenvironment and Immunotherapy,RIG-I,Standardize symbol
 ENSG00000185559,DLK1,Relevant Molecular Target,Cell Lineage,DLK1,Unchanged from FDA lists
 ENSG00000090932,DLL3,Non-Relevant Molecular Target,Automatic Waivers,DLL3,Unchanged from FDA lists
 Symbol_Not_Found,DNA (alkylators),Relevant Molecular Target,Others,DNA (alkylators),Cannot be mapped to gene-level target
@@ -251,7 +251,7 @@ ENSG00000156738,MS4A1,Relevant Molecular Target,Cell Lineage,CD20,Standardize sy
 ENSG00000095002,MSH2,Relevant Molecular Target,Gene Abnormality,"Neoantigens | Gene Abnormality: MSH2, MLH1, MSH6, PMS2 POLE, and POLD1",Unpack complex target
 ENSG00000116062,MSH6,Relevant Molecular Target,Gene Abnormality,"Neoantigens | Gene Abnormality: MSH2, MLH1, MSH6, PMS2 POLE, and POLD1",Unpack complex target
 ENSG00000102854,MSLN,Relevant Molecular Target,Cell Lineage,MSLN (mesothelin),Standardize symbol
-ENSG00000198793,mTOR,Relevant Molecular Target,Gene Abnormality,"mTOR | Gene Abnormality: TSC1, TSC2",Unchanged from FDA lists
+ENSG00000198793,MTOR,Relevant Molecular Target,Gene Abnormality,"mTOR | Gene Abnormality: TSC1, TSC2",Unchanged from FDA lists
 ENSG00000169876,MUC17,Non-Relevant Molecular Target,Automatic Waivers,MUC17,Unchanged from FDA lists
 ENSG00000136997,MYC,Relevant Molecular Target,Gene Abnormality,MYC | Gene Abnormality: MYC translocations and amplification,Unchanged from FDA lists
 ENSG00000134323,MYCN,Relevant Molecular Target,Gene Abnormality,MYCN | Gene Abnormality: MYCN amplification,Unchanged from FDA lists
@@ -462,7 +462,7 @@ ENSG00000167553,TUBA1C,Relevant Molecular Target,Others,Tubulin,Unpack complex t
 ENSG00000198033,TUBA3C,Relevant Molecular Target,Others,Tubulin,Unpack complex target
 ENSG00000075886,TUBA3D,Relevant Molecular Target,Others,Tubulin,Unpack complex target
 ENSG00000152086,TUBA3E,Relevant Molecular Target,Others,Tubulin,Unpack complex target
-ENSG00000161149,TUBA3FP,Relevant Molecular Target,Others,Tubulin,Unpack complex target
+ENSG00000284130,TUBA3FP,Relevant Molecular Target,Others,Tubulin,Unpack complex target
 ENSG00000249680,TUBA3GP,Relevant Molecular Target,Others,Tubulin,Unpack complex target
 ENSG00000127824,TUBA4A,Relevant Molecular Target,Others,Tubulin,Unpack complex target
 ENSG00000243910,TUBA4B,Relevant Molecular Target,Others,Tubulin,Unpack complex target

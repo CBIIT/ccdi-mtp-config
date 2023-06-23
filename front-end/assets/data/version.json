@@ -1,17 +1,18 @@
 {
   "fdaPmtl": {
     "__comment": "FDA PMTL",
-    "version": "3.0",
-    "releaseDate": "2022-09-09"
+    "version": "3.1",
+    "releaseDate": "2023-03-10"
   },
   "openTargetsPlatform": {
     "__comment": "Open Targets Platform",
-    "version": "22.09",
-    "releaseDate": "2022-10-03"
+    "version": "22.11",
+    "releaseDate": "2022-11-24"
   },
   "openPedCanAnalyses": {
     "__comment": "OpenPedCan Analyses",
-    "customVersion": "SomaticAlterations_v11.1; GeneExpression_v10"
+    "version": "12",
+    "releaseDate": "2023-04-30"
   },
   "oncoKBCancerGeneList": {
     "__comment": "OncoKB Cancer Gene List",
