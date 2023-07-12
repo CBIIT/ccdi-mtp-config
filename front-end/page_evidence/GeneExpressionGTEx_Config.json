@@ -1,92 +1,21 @@
 [
-  {
-    "id": "x_label",
-    "exportLabel": "xLabel",
-    "chopFieldName": "x_label"
-  },
-  {
-    "id": "Gene_Ensembl_ID",
-    "exportLabel": "geneEnsemblId",
-    "chopFieldName": "Gene_Ensembl_ID"
-  },
-  {
-    "id": "Gene_symbol",
-    "exportLabel": "geneSymbol",
-    "chopFieldName": "Gene_symbol"
-  },
-  {
-    "id": "Dataset",
-    "exportLabel": "dataset",
-    "chopFieldName": "Dataset"
-  },
-  {
-    "id": "Disease",
-    "exportLabel": "disease",
-    "chopFieldName": "Disease"
-  },
-  {
-    "id": "GTEx_tissue_subgroup",
-    "exportLabel": "gtexTissueSubgroup",
-    "chopFieldName": "GTEx_tissue_subgroup"
-  },
-  {
-    "id": "EFO",
-    "exportLabel": "efo",
-    "chopFieldName": "EFO"
-  },
-  {
-    "id": "MONDO",
-    "exportLabel": "mondo",
-    "chopFieldName": "MONDO"
-  },
-  {
-    "id": "GTEx_tissue_subgroup_UBERON",
-    "exportLabel": "gtexTissueSubgroupUberon",
-    "chopFieldName": "GTEx_tissue_subgroup_UBERON"
-  },
-  {
-    "id": "TPM_mean",
-    "exportLabel": "tpmMean",
-    "chopFieldName": "TPM_mean"
-  },
-  {
-    "id": "TPM_sd",
-    "exportLabel": "tpmSd",
-    "chopFieldName": "TPM_sd"
-  },
-  {
-    "id": "TPM_min",
-    "exportLabel": "tpmMin",
-    "chopFieldName": "TPM_min"
-  },
-  {
-    "id": "TPM_25th_percentile",
-    "exportLabel": "tpm25thPercentile",
-    "chopFieldName": "TPM_25th_percentile"
-  },
-  {
-    "id": "TPM_median",
-    "exportLabel": "tpmMedian",
-    "chopFieldName": "TPM_median"
-  },
-  {
-    "id": "TPM_75th_percentile",
-    "exportLabel": "tpm75thPercentile",
-    "chopFieldName": "TPM_75th_percentile"
-  },
-  {
-    "id": "TPM_max",
-    "exportLabel": "tpmMax",
-    "chopFieldName": "TPM_max"
-  },
-  {
-    "id": "specimen_descriptor_fill",
-    "exportLabel": "specimenDescriptorFill",
-    "chopFieldName": "specimen_descriptor_fill"
-  },
-  {
-    "id": "box_sample_count",
-    "exportLabel": "boxSampleCount",
-    "chopFieldName": "specimen_descriptor_fill"
-  }
+  { "id": "histology_group", "exportLabel": "histologyGroup"},
+  { "id": "cohort", "exportLabel": "cohort" },
+  { "id": "Kids_First_Biospecimen_ID", "exportLabel": "kidsFirstBiospecimenId" },
+  { "id": "GTEx_tissue_subgroup_UBERON", "exportLabel": "gtexTissueSubgroupUberon" },
+  { "id": "GTEx_tissue_subgroup", "exportLabel": "gtexTissueSubgroup" },
+  { "id": "specimen_descriptor", "exportLabel": "specimenDescriptor" },
+  { "id": "TPM", "exportLabel": "tpm" },
+  { "id": "Gene_Ensembl_ID", "exportLabel": "geneEnsemblId" },
+  { "id": "Gene_symbol", "exportLabel": "geneSymbol" },
+  { "id": "PMTL", "exportLabel": "pmtl" },
+  { "id": "specimen_descriptor_fill", "exportLabel": "specimenDescriptorFill" },
+  { "id": "specimen_descriptor_x_label", "exportLabel": "specimenDescriptorXlabel" },
+  { "id": "x_label_sample_count", "exportLabel": "xLabelSampleCount" },
+  { "id": "box_sample_count", "exportLabel": "boxSampleCount" },
+  { "id": "x_label", "exportLabel": "xLabel" },
+  { "id": "sample_type", "exportLabel": "sampleType" },
+  { "id": "EFO", "exportLabel": "efo" },
+  { "id": "MONDO", "exportLabel": "mondo" },
+  { "id": "Disease", "exportLabel": "disease" }
 ]
